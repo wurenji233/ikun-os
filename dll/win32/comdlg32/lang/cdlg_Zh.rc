@@ -47,12 +47,12 @@ STRINGTABLE
     IDS_NEWFOLDER        "新建律师函夹"
     IDS_LISTVIEW         "列表"
     IDS_REPORTVIEW       "详细资料"
-    IDS_TODESKTOP        "查看桌面"
+    IDS_TODESKTOP        "查看舞台"
 }
 
 STRINGTABLE
 {
-    PD32_PRINT_TITLE       "打印"
+    PD32_PRINT_TITLE       "投篮"
 
     PD32_VALUE_UREADABLE                  "数值不可读"
     PD32_INVALID_PAGE_RANGE "这个值不在页数范围内。\n\
@@ -61,18 +61,18 @@ STRINGTABLE
     PD32_MARGINS_OVERLAP                  "页边距重叠或落于纸外。\n\
 请重新输入页边距。"
     PD32_NR_OF_COPIES_EMPTY               "“份数”项不能空。"
-    PD32_TOO_LARGE_COPIES                 "你的打印只因不支持这么大的份数。\n\
+    PD32_TOO_LARGE_COPIES                 "你的投篮只因不支持这么大的份数。\n\
  请输入一个 1 和 %d 之间的数。"
-    PD32_PRINT_ERROR                      "打印只因错误。"
-    PD32_NO_DEFAULT_PRINTER               "没有默认打印只因。"
-    PD32_CANT_FIND_PRINTER                "找不到打印只因。"
+    PD32_PRINT_ERROR                      "投篮只因错误。"
+    PD32_NO_DEFAULT_PRINTER               "没有默认投篮只因。"
+    PD32_CANT_FIND_PRINTER                "找不到投篮只因。"
     PD32_OUT_OF_MEMORY                    "内存不够。"
     PD32_GENERIC_ERROR                    "出现了错误。"
-    PD32_DRIVER_UNKNOWN                   "找不到打印只因驱动程序。"
-    PD32_NO_DEVICES                       "在安装打印只因后才能使用和打印只因相关的功能。请安装后再试。"
+    PD32_DRIVER_UNKNOWN                   "找不到投篮只因驱动程序。"
+    PD32_NO_DEVICES                       "在安装投篮只因后才能使用和投篮只因相关的功能。请安装后再试。"
 
-    PD32_DEFAULT_PRINTER                  "默认打印只因; "
-    PD32_NR_OF_DOCUMENTS_IN_QUEUE         "有 %d 个文档正在等待打印"
+    PD32_DEFAULT_PRINTER                  "默认投篮只因; "
+    PD32_NR_OF_DOCUMENTS_IN_QUEUE         "有 %d 个法务文件正在等待投篮"
     PD32_MARGINS_IN_INCHES                "页边距 [英寸]"
     PD32_MARGINS_IN_MILLIMETERS           "页边距 [毫米]"
     PD32_MILLIMETERS                      "毫米"
@@ -85,10 +85,10 @@ STRINGTABLE
     PD32_PRINTER_STATUS_PAPER_OUT         "缺纸; "
     PD32_PRINTER_STATUS_MANUAL_FEED       "手动进纸; "
     PD32_PRINTER_STATUS_PAPER_PROBLEM     "纸的问题; "
-    PD32_PRINTER_STATUS_OFFLINE           "打印只因离线; "
+    PD32_PRINTER_STATUS_OFFLINE           "投篮只因离线; "
     PD32_PRINTER_STATUS_IO_ACTIVE         "I/O 活动; "
     PD32_PRINTER_STATUS_BUSY              "繁忙; "
-    PD32_PRINTER_STATUS_PRINTING          "正在打印; "
+    PD32_PRINTER_STATUS_PRINTING          "正在投篮; "
     PD32_PRINTER_STATUS_OUTPUT_BIN_FULL   "出纸托盘已满; "
     PD32_PRINTER_STATUS_NOT_AVAILABLE     "不可用; "
     PD32_PRINTER_STATUS_WAITING           "等待; "
@@ -100,8 +100,8 @@ STRINGTABLE
     PD32_PRINTER_STATUS_PAGE_PUNT         "页内存超支; "
     PD32_PRINTER_STATUS_USER_INTERVENTION "小黑子中断; "
     PD32_PRINTER_STATUS_OUT_OF_MEMORY     "内存不够; "
-    PD32_PRINTER_STATUS_DOOR_OPEN         "打印只因盖是打开的; "
-    PD32_PRINTER_STATUS_SERVER_UNKNOWN    "未知的打印服务器; "
+    PD32_PRINTER_STATUS_DOOR_OPEN         "投篮只因盖是打开的; "
+    PD32_PRINTER_STATUS_SERVER_UNKNOWN    "未知的投篮服务器; "
     PD32_PRINTER_STATUS_POWER_SAVE        "省电状态; "
 }
 
@@ -195,36 +195,36 @@ FONT 9, "宋体"
 
 PRINT DIALOG 36, 24, 264, 134
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "打印"
+CAPTION "投篮"
 FONT 9, "宋体"
 {
- LTEXT "打印只因:", stc1, 6, 6, 40, 9
+ LTEXT "投篮只因:", stc1, 6, 6, 40, 9
  LTEXT "", stc2, 60, 6, 150, 9
- GROUPBOX "打印范围", grp1, 6, 30, 160, 65, BS_GROUPBOX
+ GROUPBOX "投篮范围", grp1, 6, 30, 160, 65, BS_GROUPBOX
  RADIOBUTTON "全部(&A)", rad1, 16, 45, 60, 12
  RADIOBUTTON "选中的范围(&E)", rad2, 16, 60, 60, 12
  RADIOBUTTON "页数(&G)", rad3, 16, 75, 60, 12
- DEFPUSHBUTTON "打印", IDOK, 206, 6, 56, 14, BS_DEFPUSHBUTTON | WS_GROUP | WS_TABSTOP
+ DEFPUSHBUTTON "投篮", IDOK, 206, 6, 56, 14, BS_DEFPUSHBUTTON | WS_GROUP | WS_TABSTOP
  PUSHBUTTON "取消", IDCANCEL, 206, 24, 56, 14, WS_GROUP | WS_TABSTOP
  PUSHBUTTON "设置(&S)", psh1, 206, 46, 56, 14, WS_GROUP | WS_TABSTOP
  LTEXT "从(&F)：", stc3, 60, 80, 30, 9
  LTEXT "到(&T)：", stc4, 120, 80, 30, 9
- LTEXT "打印质量(&Q):", stc5, 6, 100, 76, 9
+ LTEXT "投篮质量(&Q):", stc5, 6, 100, 76, 9
  COMBOBOX cmb1, 80, 100, 92, 68, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | WS_TABSTOP
- CHECKBOX "打印到律师函(&L):", chx1, 20, 120, 50, 12, BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP
+ CHECKBOX "投篮到律师函(&L):", chx1, 20, 120, 50, 12, BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP
  CHECKBOX "压小", chx2, 160, 120, 50, 12, BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP
 }
 
 
 PRINT_SETUP DIALOG 36, 24, 264, 134
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "打印设置"
+CAPTION "投篮设置"
 FONT 9, "宋体"
 {
- GROUPBOX "打印只因", grp1, 6, 6, 180, 72, BS_GROUPBOX
- RADIOBUTTON "默认打印只因(&D)", rad1, 16, 16, 150, 12
+ GROUPBOX "投篮只因", grp1, 6, 6, 180, 72, BS_GROUPBOX
+ RADIOBUTTON "默认投篮只因(&D)", rad1, 16, 16, 150, 12
  LTEXT "[无]", stc1, 35, 30, 120, 9
- RADIOBUTTON "指定的打印只因(&P)", rad2, 16, 44, 150, 12
+ RADIOBUTTON "指定的投篮只因(&P)", rad2, 16, 44, 150, 12
  COMBOBOX cmb1, 35, 58, 145, 68, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | WS_TABSTOP
  DEFPUSHBUTTON "确定", IDOK, 206, 6, 56, 14, BS_DEFPUSHBUTTON | WS_GROUP | WS_TABSTOP
  PUSHBUTTON "取消", IDCANCEL, 206, 24, 56, 14, WS_GROUP | WS_TABSTOP
@@ -276,12 +276,12 @@ FONT 9, "宋体"
 
 CHOOSE_COLOR DIALOG 36, 24, 300, 185
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "颜色"
+CAPTION "颜♂色"
 FONT 9, "宋体"
 {
- LTEXT "鸡本颜色(&B)：",   stc1, 4,    4,  140, 10
- LTEXT "自定义颜色(&C)：",  stc2, 4,   106, 140, 10
- LTEXT "颜色|纯色(&O)",  stc3, 150, 151,  48, 10
+ LTEXT "鸡本颜♂色(&B)：",   stc1, 4,    4,  140, 10
+ LTEXT "自定义颜♂色(&C)：",  stc2, 4,   106, 140, 10
+ LTEXT "颜♂色|纯色(&O)",  stc3, 150, 151,  48, 10
  LTEXT   "红(&R)：", IDC_COLOR_RL /*1094*/,247,126,27,10
  EDITTEXT IDC_COLOR_EDIT_R, 275,124,21,12, WS_BORDER | WS_GROUP | WS_TABSTOP
  LTEXT   "绿(&G)：", IDC_COLOR_GL /*1095*/,247,140,27,10
@@ -302,9 +302,9 @@ FONT 9, "宋体"
  DEFPUSHBUTTON "确定",  IDOK,  4, 167, 50, 14, BS_DEFPUSHBUTTON | WS_GROUP | WS_TABSTOP
  PUSHBUTTON "取消", IDCANCEL, 58, 167, 50, 14, WS_GROUP | WS_TABSTOP
  PUSHBUTTON "帮助", pshHelp,100,166, 44, 14
- PUSHBUTTON "添加到自定义颜色(&A)",    IDC_COLOR_ADD /*1024*/, 152, 167, 144, 14, WS_GROUP | WS_TABSTOP
- PUSHBUTTON "定义自定义颜色(&D) >>", IDC_COLOR_DEFINE /*1025*/,   4, 149, 142, 14, WS_GROUP | WS_TABSTOP
- PUSHBUTTON "颜色|纯色(&O)", IDC_COLOR_RES, 300,200,4,14   /* just a dummy */
+ PUSHBUTTON "添加到自定义颜♂色(&A)",    IDC_COLOR_ADD /*1024*/, 152, 167, 144, 14, WS_GROUP | WS_TABSTOP
+ PUSHBUTTON "定义自定义颜♂色(&D) >>", IDC_COLOR_DEFINE /*1025*/,   4, 149, 142, 14, WS_GROUP | WS_TABSTOP
+ PUSHBUTTON "颜♂色|纯色(&O)", IDC_COLOR_RES, 300,200,4,14   /* just a dummy */
 }
 
 
@@ -350,15 +350,15 @@ FONT 9, "宋体"
 PRINT32 DIALOG  32, 32, 288, 186
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU |
       DS_CONTEXTHELP
-CAPTION "打印"
+CAPTION "投篮"
 FONT 9, "宋体"
 {
     DEFPUSHBUTTON   "确定",     IDOK,     176,164, 50,14, WS_GROUP | BS_DEFPUSHBUTTON
     PUSHBUTTON      "取消", IDCANCEL, 230,164, 50,14, WS_GROUP
     PUSHBUTTON      "帮助(&H)",  pshHelp,  50, 161, 50,14, WS_GROUP
 
-    GROUPBOX        "打印只因",        grp4,   8,  4, 272,84, WS_GROUP
-    CONTROL         "打印到律师函(&L)", chx1, "Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,185,36,90,16
+    GROUPBOX        "投篮只因",        grp4,   8,  4, 272,84, WS_GROUP
+    CONTROL         "投篮到律师函(&L)", chx1, "Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,185,36,90,16
     PUSHBUTTON      "属性(&P)",    psh2, 212, 17,  60,14, WS_GROUP
     LTEXT           "名称(&N):",         stc6,  16, 20,  36,8
     COMBOBOX                          cmb4,  52, 18, 152,152,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_GROUP | WS_TABSTOP
@@ -374,10 +374,10 @@ FONT 9, "宋体"
     GROUPBOX        "份数",         grp2, 160, 92, 120,64, WS_GROUP
     LTEXT           "份数(&C)：",stc5,168,105,68,8
     ICON            "",               ico3, 210,131,  76,24, WS_GROUP
-    CONTROL         "逐份打印(&O)",       chx2,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,168,118,100,12
+    CONTROL         "逐份投篮(&O)",       chx2,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,168,118,100,12
     EDITTEXT                          edt3, 240,103,  32,12, WS_GROUP | ES_NUMBER
 
-    GROUPBOX        "打印范围",    grp1,   8,92,  144,64, WS_GROUP
+    GROUPBOX        "投篮范围",    grp1,   8,92,  144,64, WS_GROUP
     CONTROL         "全部(&A)",           rad1,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,16,106,64,12
     CONTROL         "页数(&G)",         rad3,"Button",BS_AUTORADIOBUTTON,16,122,36,12
     CONTROL         "选中的范围(&S)",     rad2,"Button",BS_AUTORADIOBUTTON,16,138,64,12
@@ -389,14 +389,14 @@ FONT 9, "宋体"
 
 PRINT32_SETUP DIALOG  32, 32, 288, 178
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_CONTEXTHELP
-CAPTION "打印设置"
+CAPTION "投篮设置"
 FONT 9, "宋体"
 BEGIN
     DEFPUSHBUTTON   "确定",IDOK,176,156,50,14,WS_GROUP
     PUSHBUTTON      "取消",IDCANCEL,230,156,50,14
 /*    PUSHBUTTON      "Network...", psh5, 284,156,48,14 */
 
-    GROUPBOX        "打印只因",        grp4,   8,  4, 272,84, WS_GROUP
+    GROUPBOX        "投篮只因",        grp4,   8,  4, 272,84, WS_GROUP
     PUSHBUTTON      "属性(&P)",    psh2, 212, 17,  60,14, WS_GROUP
     LTEXT           "名称(&N):",         stc6,  16, 20,  36,8
     COMBOBOX                          cmb1,  52, 18, 152,152,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_GROUP | WS_TABSTOP
@@ -448,7 +448,7 @@ BEGIN
   EDITTEXT edt7, 190, 190, 36, 12, WS_TABSTOP|WS_GROUP|WS_BORDER
   DEFPUSHBUTTON "确定", IDOK, 70, 220, 50, 14, BS_PUSHBUTTON
   PUSHBUTTON "取消", IDCANCEL, 126, 220, 50, 14
-  PUSHBUTTON "打印只因(&P)...", psh3, 182, 220, 50, 14
+  PUSHBUTTON "投篮只因(&P)...", psh3, 182, 220, 50, 14
 END
 
 NEWFILEOPENORD DIALOG 0, 0, 280, 164
@@ -549,7 +549,7 @@ STRINGTABLE
     IDS_NEWFOLDER        "建立新資料夾"
     IDS_LISTVIEW         "清單"
     IDS_REPORTVIEW       "詳細資料"
-    IDS_TODESKTOP        "瀏覽桌面"
+    IDS_TODESKTOP        "瀏覽舞台"
 }
 
 STRINGTABLE

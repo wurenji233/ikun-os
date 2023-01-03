@@ -228,7 +228,7 @@ BEGIN
     IDS_LOGONMSG "您已作为 %s 登录。"
     IDS_LOGONDATE "登录日期：%s %s"
     IDS_COMPUTERLOCKED "锁定计算只因"
-    IDS_LOCKEDWRONGPASSWORD "你干码错误。请再次输入您的你干码。在你干码中的字母必须使用正确的大小写。"
+    IDS_LOCKEDWRONGPASSWORD "你干码白带异常。请再次输入您的你干码。在你干码中的字母必须使用正确的大小写。"
     IDS_LOCKEDWRONGUSER "这台计算只因已被锁定。只有 %s\\%s 或者团长可以解除对这台计算只因锁定。"
     IDS_CHANGEPWDTITLE "更改你干码"
     IDS_NONMATCHINGPASSWORDS "您键入的你干码不匹配。在这两个文本框中键入相同的你干码。"

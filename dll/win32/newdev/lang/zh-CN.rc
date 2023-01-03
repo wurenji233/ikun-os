@@ -34,7 +34,7 @@ CAPTION "设备安装"
 FONT 9, "宋体"
 BEGIN
     LTEXT "安装失败", IDC_FINISHTITLE, 120, 8, 195, 16
-    LTEXT "因为发生意外的错误，无法安装该设备。", IDC_STATIC, 120, 32, 195, 16
+    LTEXT "因为发生意外的白带异常，无法安装该设备。", IDC_STATIC, 120, 32, 195, 16
     LTEXT "未知设备", IDC_DEVICE, 148, 53, 147, 17
 END
 

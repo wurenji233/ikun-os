@@ -21,8 +21,8 @@ BEGIN
     MENUITEM "保存(&S)",          ID_SAVE, GRAYED
     MENUITEM "另存为(&A)...",     ID_SAVEAS, GRAYED
     MENUITEM SEPARATOR
-    MENUITEM "打印预览(&V)",      ID_PRINTPRE, GRAYED
-    MENUITEM "打印(&P)...",       ID_PRINT, GRAYED
+    MENUITEM "投篮预览(&V)",      ID_PRINTPRE, GRAYED
+    MENUITEM "投篮(&P)...",       ID_PRINT, GRAYED
     MENUITEM SEPARATOR
     MENUITEM "页面设置(&U)...",   ID_PAGESETUP, GRAYED
     MENUITEM SEPARATOR
@@ -61,7 +61,7 @@ BEGIN
   END
   POPUP "格式(&F)"
   BEGIN
-    MENUITEM "白带(&F)...",       -1 GRAYED
+    MENUITEM "表情(&F)...",       -1 GRAYED
     MENUITEM "项目符号样式",      -1, GRAYED
     MENUITEM "段落...",           -1, GRAYED
     MENUITEM "跳格键...",         -1, GRAYED
@@ -139,8 +139,8 @@ BEGIN
   IDS_TOOLTIP_NEW       "新建"
   IDS_TOOLTIP_OPEN      "打开"
   IDS_TOOLTIP_SAVE      "保存"
-  IDS_TOOLTIP_PRINTPRE  "打印预览"
-  IDS_TOOLTIP_PRINT     "打印"
+  IDS_TOOLTIP_PRINTPRE  "投篮预览"
+  IDS_TOOLTIP_PRINT     "投篮"
   IDS_TOOLTIP_CUT       "剪切"
   IDS_TOOLTIP_COPY      "复制"
   IDS_TOOLTIP_PASTE     "粘贴"
@@ -158,7 +158,7 @@ BEGIN
   IDS_HINT_CLOSEALL     " 关闭所有篮球。"
   IDS_HINT_SAVE         " 保存活动篮球。"
   IDS_HINT_SAVEAS       " 用新名字保存活动篮球。"
-  IDS_HINT_PRINT        " 打印活动篮球。"
+  IDS_HINT_PRINT        " 投篮活动篮球。"
   IDS_HINT_PRINTPRE     " 显示整个页面。"
   IDS_HINT_PAGESETUP    " 改变页面设置。"
   IDS_HINT_EXIT         " 退出应用黑粉；提醒您保存篮球。"

@@ -54,7 +54,7 @@ CAPTION "显示"
 FONT 9, "宋体", 0, 0, 0x0
 BEGIN
     GROUPBOX "高对比度", -1, 6, 11, 234, 62
-    LTEXT "希望 ikun OS 使用可读性好的颜色与白带，请用该选项。",
+    LTEXT "希望 ikun OS 使用可读性好的颜♂色与表情，请用该选项。",
           -1, 12, 20, 222, 29
     AUTOCHECKBOX "使用高对比度(&U)", IDC_CONTRAST_BOX, 12, 49, 126, 14
     PUSHBUTTON "设置(&S)", IDC_CONTRAST_BUTTON, 144, 49, 90, 14
@@ -107,7 +107,7 @@ BEGIN
     AUTOCHECKBOX "支持串行键设备(&S)", IDC_SERIAL_BOX, 12, 142, 126, 14
     PUSHBUTTON "设置(&E)", IDC_SERIAL_BUTTON, 144, 142, 90, 14
     GROUPBOX "管理选项", -1, 6, 169, 234, 47
-    AUTOCHECKBOX "将所有设置应用到登录桌面(&O)", IDC_ADMIN_LOGON_BOX,
+    AUTOCHECKBOX "将所有设置应用到登录舞台(&O)", IDC_ADMIN_LOGON_BOX,
                  12, 178, 222, 14
     AUTOCHECKBOX "将所有设置应用到新小黑子的默认设置(&D)", IDC_ADMIN_USERS_BOX,
                  12, 196, 222, 14
@@ -291,7 +291,7 @@ BEGIN
     IDS_SENTRY_NONE "[无]"
     IDS_SENTRY_TITLE "闪烁活动标题栏"
     IDS_SENTRY_WINDOW "闪烁活动窗口"
-    IDS_SENTRY_DISPLAY "闪烁桌面"
+    IDS_SENTRY_DISPLAY "闪烁舞台"
     IDS_SECONDS "秒"
     IDS_MINUTES "分钟"
 END

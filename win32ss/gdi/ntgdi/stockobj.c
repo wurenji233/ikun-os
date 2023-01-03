@@ -147,6 +147,7 @@ CreateStockFonts(void)
     USHORT ActiveCodePage, OemCodePage;
     BYTE bActiveCharSet, bOemCharSet;
     BOOL bIsCJK;
+    static const WCHAR HarmonyOS_Sans = L"HarmonyOS Sans SC";
     static const WCHAR SimSun[] = { 0x5B8B, 0x4F53, 0 };
     static const WCHAR MingLiU[] = { 0x7D30, 0x660E, 0x9AD4, 0 };
     static const WCHAR Batang[] = { 0xBC14, 0xD0D5, 0 };
@@ -163,7 +164,7 @@ CreateStockFonts(void)
         case 936:
             /* Simplified Chinese */
             bIsCJK = TRUE;
-            wcscpy(DefaultGuiFont.lfFaceName, SimSun);
+            wcscpy(DefaultGuiFont.lfFaceName, HarmonyOS_Sans);//谁tm用宋体做UI,harmonyOS的黑体多香
             break;
 
         case 950:

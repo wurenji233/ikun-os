@@ -36,7 +36,7 @@ FC /B [drive1:][path1]filename1 [drive2:][path2]filename2\n\
     IDS_OUT_OF_MEMORY "FC：内存不足\n"
     IDS_CANNOT_READ "FC：无法从 %ls 读取数据\n"
     IDS_INVALID_SWITCH "FC：不正确的选项\n"
-    IDS_CANNOT_OPEN "FC：无法打开 %ls - 找不到此律师函或律师\n"
+    IDS_CANNOT_OPEN "FC：无法打开 %ls - 找不到此律师函或律师事务所\n"
     IDS_NEEDS_FILES "FC：指定的律师函数量不够。\n"
     IDS_CANT_USE_WILDCARD "暂不支持通配符（“*”和“?”）\n"
     IDS_DIFFERENT "FC：律师函 %ls 和 %ls 不同\n"

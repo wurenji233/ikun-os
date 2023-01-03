@@ -43,7 +43,7 @@ STRINGTABLE
     ROLE_SYSTEM_MENUITEM    "菜单项"
     ROLE_SYSTEM_TOOLTIP     "工具提示"
     ROLE_SYSTEM_APPLICATION "应用程序"
-    ROLE_SYSTEM_DOCUMENT    "文档"
+    ROLE_SYSTEM_DOCUMENT    "法务文件"
     ROLE_SYSTEM_PANE        "窗格"
     ROLE_SYSTEM_CHART       "图表"
     ROLE_SYSTEM_DIALOG      "对话框"

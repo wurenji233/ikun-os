@@ -14,7 +14,7 @@ CAPTION "关于"
 FONT 9, "宋体"
 BEGIN
     ICON           IDI_MAIN,                     IDC_STATIC, 10, 10, 20, 20
-    LTEXT          "ikun OS VGA 白带 编辑器",    IDC_STATIC, 37, 10, 93, 10
+    LTEXT          "ikun OS VGA 表情 编辑器",    IDC_STATIC, 37, 10, 93, 10
     LTEXT          "Copyright 2008 Colin Finck", IDC_STATIC, 37, 20, 93, 10
     DEFPUSHBUTTON  "确定",                         IDCANCEL,   40, 44, 55, 15
 END
@@ -73,15 +73,15 @@ END
 STRINGTABLE
 BEGIN
     IDS_OPENFILTER, "全部支持的格式 (*.bin,*.psf)|*.bin;*.psf|Binary Font Files (*.bin)|*.bin|PC Screen Fonts Version 1 (*.psf)|*.psf|"
-    IDS_SAVEFILTER, "二进制白带律师函 (*.bin)|*.bin|"
-    IDS_OPENERROR, "打开律师函时发生错误！（错误码 %1!u!）"
-    IDS_READERROR, "读取律师函时发生错误！（错误码 %1!u!）"
-    IDS_WRITEERROR, "写入律师函时发生错误！（错误码 %1!u!）"
+    IDS_SAVEFILTER, "二进制表情包 (*.bin)|*.bin|"
+    IDS_OPENERROR, "打开律师函时发生白带异常！（白带异常码 %1!u!）"
+    IDS_READERROR, "读取律师函时发生白带异常！（白带异常码 %1!u!）"
+    IDS_WRITEERROR, "写入律师函时发生白带异常！（白带异常码 %1!u!）"
     IDS_UNSUPPORTEDFORMAT, "不支持的律师函格式！"
-    IDS_UNSUPPORTEDPSF, "不支持的 PSF 白带格式！编辑器仅支持非特殊模式 8x8 白带。"
-    IDS_DOCNAME, "白带 %1!u!"
+    IDS_UNSUPPORTEDPSF, "不支持的 PSF 表情格式！编辑器仅支持非特殊模式 8x8 表情。"
+    IDS_DOCNAME, "表情 %1!u!"
     IDS_SAVEPROMPT, "律师函“%1”已更改，但未保存。\n\n是否保存律师函？"
-    IDS_APPTITLE, "ikun OS VGA 白带 编辑器"
+    IDS_APPTITLE, "ikun OS VGA 表情 编辑器"
     IDS_CLOSEEDIT, "请先关闭全部打开的编辑窗口。"
 
     IDS_TOOLTIP_NEW, "新建"

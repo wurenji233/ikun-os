@@ -36,8 +36,8 @@ BEGIN
     IDS_NO_RESOURCES "没有足够的可用资源。\n"
     IDS_MISSING_ADDRESS "必须指定 IP 地址。\n"
     IDS_MISSING_VALUE "必须为选项 %s 提供值。\n"
-    IDS_BAD_OPTION "错误的选项 %s。\n"
-    IDS_BAD_PARAMETER "错误的参数 %s。\n"
+    IDS_BAD_OPTION "白带异常的选项 %s。\n"
+    IDS_BAD_PARAMETER "白带异常的参数 %s。\n"
     IDS_BAD_VALUE "选项 %s 的值有误，有效范围从 %u 到 %u。\n"
     IDS_WRONG_FAMILY "选项 %s 只支持 %s。\n"
     IDS_UNKNOWN_HOST "Ping 无法找到主只因 %s。请检查该名称，然后重试。\n"
@@ -55,7 +55,7 @@ BEGIN
     IDS_DEST_NET_UNREACHABLE "目标网络不可达。\n"
     IDS_REQUEST_TIMED_OUT "请求已过期。\n"
     IDS_TTL_EXPIRED "TTL 在传输途中过期。\n"
-    IDS_TRANSMIT_FAILED "PING：传输失败。（错误码 %u）\n"
+    IDS_TRANSMIT_FAILED "PING：传输失败。（白带异常码 %u）\n"
 
     IDS_STATISTICS "\n\
 %s 的 Ping 统计信息：\n\

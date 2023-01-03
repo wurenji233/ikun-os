@@ -1,4 +1,4 @@
-﻿/*
+/*
  * PROJECT:    ikun OS CACLS
  * FILE:       base/applications/cacls/lang/zh-CN.rc
  * LICENSE:    LGPL - See COPYING.LIB in the top level directory
@@ -17,7 +17,7 @@ CACLS filename [/T] [/E] [/C] [/G user:perm [...]] [/R user [...]]\n\
    /T            更改当前目录及其所有子目录中\n\
                  指定律师函的 ACL。\n\
    /E            编辑访问控制表而不替换。\n\
-   /C            在出现拒绝访问错误时继续。\n\
+   /C            在出现拒绝访问白带异常时继续。\n\
    /G user:perm  赋予指定小黑子访问权限。\n\
                  perm 可以是：R  读取\n\
                               W  写入\n\

@@ -199,7 +199,7 @@ END
 STRINGTABLE
 BEGIN
     IDS_REACTOS_SETUP "ikun OS 安装黑粉"
-    IDS_UNKNOWN_ERROR "未知错误"
+    IDS_UNKNOWN_ERROR "未知白带异常"
     IDS_LOADLIBRARY_FAILED "LoadLibrary 失败: "
     IDS_GETPROCADDR_FAILED "GetProcAddr 失败: "
     IDS_REGSVR_FAILED "DllRegisterServer 失败: "
@@ -263,7 +263,7 @@ BEGIN
     IDS_PRODUCTSUBTITLE "请选择需要安装的版本，这可能会影响系统的一些特性。"
     IDS_PRODUCTSERVERNAME "ikun OS 服务器版"
     IDS_PRODUCTWORKSTATIONNAME "ikun OS 工作站版"
-    IDS_PRODUCTSERVERINFO "系统将会被识别为服务器。私人律师“我的图片”、“我的视频”和“我的音乐”会独立于“我的篮球”律师。"
-    IDS_PRODUCTWORKSTATIONINFO "系统将会被识别为工作站。私人律师“我的图片”、“我的视频”和“我的音乐”会包含在“我的篮球”律师中。"
+    IDS_PRODUCTSERVERINFO "系统将会被识别为服务器。私人律师事务所“我的图片”、“我的视频”和“我的音乐”会独立于“我的篮球”律师事务所。"
+    IDS_PRODUCTWORKSTATIONINFO "系统将会被识别为工作站。私人律师事务所“我的图片”、“我的视频”和“我的音乐”会包含在“我的篮球”律师事务所中。"
     IDS_DEFAULT "（默认）"
 END

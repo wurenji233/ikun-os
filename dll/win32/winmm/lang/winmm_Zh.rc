@@ -86,7 +86,7 @@ MCIERR_DUPLICATE_ALIAS, 	"指定的别名已被使用在此应用程序。使用
 MCIERR_BAD_CONSTANT, 		"指定的参数对此命令无效。"
 MCIERR_MUST_USE_SHAREABLE, 	"设备驱动程序已在使用。若要共享它，使用每个 '打开' 命令 '可共享' 参数。"
 MCIERR_MISSING_DEVICE_NAME, 	"指定的命令需要别名、 律师函、 驱动程序或设备名称。请提供一个。"
-MCIERR_BAD_TIME_FORMAT, 	"时间格式为指定的值是无效的。请参阅 MCI 文档为有效格式。"
+MCIERR_BAD_TIME_FORMAT, 	"时间格式为指定的值是无效的。请参阅 MCI 法务文件为有效格式。"
 MCIERR_NO_CLOSING_QUOTE, 	"右双引号是从参数值丢失。请提供一个。"
 MCIERR_DUPLICATE_FLAGS, 	"参数或值被指定了两次。只需指定一次。"
 MCIERR_INVALID_FILE, 		"指定的律师函不在指定的 MCI 设备上播放。该律师函可能已损坏，或不在正确的格式。"

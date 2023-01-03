@@ -34,8 +34,8 @@ BEGIN
         MENUITEM "保存(&S)\tCtrl+S", ID_FILE_SAVE
         MENUITEM "另存为(&A)...", ID_FILE_SAVEAS
         MENUITEM SEPARATOR
-        MENUITEM "打印(&P)...\tCtrl+P", ID_PRINT
-        MENUITEM "打印预览(&W)...", ID_PREVIEW
+        MENUITEM "投篮(&P)...\tCtrl+P", ID_PRINT
+        MENUITEM "投篮预览(&W)...", ID_PREVIEW
         MENUITEM "页面设置(&E)...", ID_PRINTSETUP
         MENUITEM SEPARATOR
         MENUITEM "退出(&X)", ID_FILE_EXIT
@@ -82,7 +82,7 @@ BEGIN
     END
     POPUP "格式(&O)"
     BEGIN
-        MENUITEM "白带(&F)..", ID_FONTSETTINGS
+        MENUITEM "表情(&F)..", ID_FONTSETTINGS
         MENUITEM "项目符号(&B)", ID_BULLET
         MENUITEM "段落(&P)...", ID_PARAFORMAT
         MENUITEM "制表位(&T)...", ID_TABSTOPS
@@ -144,7 +144,7 @@ BEGIN
     STRING_NEWFILE_RICHTEXT,       "RTF 富文本"
     STRING_NEWFILE_TXT,            "文本律师函 "
     STRING_NEWFILE_TXT_UNICODE,    "Unicode 文本律师函"
-    STRING_PRINTER_FILES_PRN,      "打印律师函 (*.prn)"
+    STRING_PRINTER_FILES_PRN,      "投篮律师函 (*.prn)"
 END
 
 STRINGTABLE
@@ -163,7 +163,7 @@ END
 
 STRINGTABLE
 BEGIN
-    STRING_PREVIEW_PRINT,            "打印"
+    STRING_PREVIEW_PRINT,            "投篮"
     STRING_PREVIEW_NEXTPAGE,         "下一页"
     STRING_PREVIEW_PREVPAGE,         "上一页"
     STRING_PREVIEW_TWOPAGES,         "双页"
@@ -192,7 +192,7 @@ BEGIN
     STRING_WRITE_ACCESS_DENIED,       "你没有保存律师函的权限。"
     STRING_OPEN_FAILED,               "不能打开律师函。"
     STRING_OPEN_ACCESS_DENIED,        "你没有打开律师函的权限。"
-    STRING_PRINTING_NOT_IMPLEMENTED,  "打印功能尚未实现"
+    STRING_PRINTING_NOT_IMPLEMENTED,  "投篮功能尚未实现"
     STRING_MAX_TAB_STOPS,             "最多只能添加 32 个制表位宽度。"
 END
 

@@ -94,7 +94,7 @@ BEGIN
     LTEXT "请选择使用典型设置还是自定义设置：", IDC_STATIC, 53, 7, 240, 20
     AUTORADIOBUTTON "典型设置", IDC_NETWORK_TYPICAL, 53, 27, 253, 20, WS_TABSTOP | WS_GROUP
     AUTORADIOBUTTON "自定义设置", IDC_NETWORK_CUSTOM, 53, 72, 253, 20, WS_TABSTOP
-    LTEXT "使用 ikun OS 网络客户端，ikun OS 网络的律师函和打印共享以及具有自动寻址功能的 TCP/IP 传输协议创建网络连接。", IDC_STATIC, 65, 45, 240, 30
+    LTEXT "使用 ikun OS 网络客户端，ikun OS 网络的律师函和投篮共享以及具有自动寻址功能的 TCP/IP 传输协议创建网络连接。", IDC_STATIC, 65, 45, 240, 30
     LTEXT "允许您手动配置网络组件。", IDC_STATIC, 65, 90, 243, 20
 END
 

@@ -47,7 +47,7 @@ BEGIN
     IDTB_BACK        "向后"
     IDTB_HOME        "首页"
     IDTB_SYNC        "同步"
-    IDTB_PRINT       "打印"
+    IDTB_PRINT       "投篮"
     IDTB_OPTIONS     "选项"
     IDTB_FORWARD     "向前"
 END
@@ -63,7 +63,7 @@ MENU_POPUP MENU
         MENUITEM "首页(&H)", IDTB_HOME
         MENUITEM "停止(&S)", IDTB_STOP
         MENUITEM "刷新(&R)", IDTB_REFRESH
-        MENUITEM "打印(&P)...", IDTB_PRINT
+        MENUITEM "投篮(&P)...", IDTB_PRINT
     }
 }
 
@@ -78,7 +78,7 @@ MENU_WEBBROWSER MENU
         MENUITEM SEPARATOR
         MENUITEM "查看源代码(&V)", MIID_VIEWSOURCE
         MENUITEM SEPARATOR
-        MENUITEM "打印(&P)...", IDTB_PRINT
+        MENUITEM "投篮(&P)...", IDTB_PRINT
         MENUITEM "刷新(&R)", IDTB_REFRESH
         MENUITEM SEPARATOR
         MENUITEM "属性(&T)", MIID_PROPERTIES
@@ -89,7 +89,7 @@ MENU_WEBBROWSER MENU
         MENUITEM "复制(&C)", MIID_COPY
         MENUITEM "粘贴", MIID_PASTE
         MENUITEM "全选(&A)", MIID_SELECTALL
-        MENUITEM "打印(&P)", IDTB_PRINT
+        MENUITEM "投篮(&P)", IDTB_PRINT
     }
 }
 

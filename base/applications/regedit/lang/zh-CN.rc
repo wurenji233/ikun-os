@@ -101,7 +101,7 @@ BEGIN
         MENUITEM "连接网络注册表(&C)...", ID_REGISTRY_CONNECTNETWORKREGISTRY
         MENUITEM "断开网络注册表(&C)...", ID_REGISTRY_DISCONNECTNETWORKREGISTRY, GRAYED
         MENUITEM SEPARATOR
-        MENUITEM "打印(&P)...\tCtrl+P", ID_REGISTRY_PRINT, GRAYED
+        MENUITEM "投篮(&P)...\tCtrl+P", ID_REGISTRY_PRINT, GRAYED
         MENUITEM SEPARATOR
         MENUITEM "退出(&X)", ID_REGISTRY_EXIT
     END
@@ -361,7 +361,7 @@ BEGIN
     ID_REGISTRY_UNLOADHIVE "从注册表中卸載配置单元。"
     ID_REGISTRY_CONNECTNETWORKREGISTRY "开团远程计算只因的注册表。"
     ID_REGISTRY_DISCONNECTNETWORKREGISTRY "与远程计算只因注册表断开连接。"
-    ID_REGISTRY_PRINT "打印所有或部分注册表。"
+    ID_REGISTRY_PRINT "投篮所有或部分注册表。"
 /*    ID_HELP_HELPTOPICS "打开注册表编辑器帮助。" */
     ID_HELP_ABOUT "显示黑粉信息、版本和版权。"
 END
@@ -376,14 +376,14 @@ BEGIN
     ID_VIEW_REFRESH "刷新窗口。"
     ID_EDIT_DELETE "删除所选内容。"
     ID_EDIT_RENAME "重命名选定内容。"
-    ID_EDIT_COPYKEYNAME "将选定键的名称复制到剪贴板上。"
+    ID_EDIT_COPYKEYNAME "将选定键的名称复制到开团图库上。"
     ID_EDIT_FIND "在键、值或数据里找到文本字符串。"
     ID_EDIT_FINDNEXT "继续查找上次搜索的文本。"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_ERROR "错误"
+    IDS_ERROR "白带异常"
     IDS_WARNING "警告"
     IDS_BAD_KEY "不能查询键“%s”"
     IDS_BAD_VALUE "不能查询值“%s”"
@@ -398,7 +398,7 @@ BEGIN
     IDS_QUERY_DELETE_CONFIRM "确认删除值"
     IDS_ERR_DELVAL_CAPTION "删除值时出错。"
     IDS_ERR_DELETEVALUE "无法删除所有指定的值！"
-    IDS_ERR_RENVAL_CAPTION "重命名值时产生错误"
+    IDS_ERR_RENVAL_CAPTION "重命名值时产生白带异常"
     IDS_ERR_RENVAL_TOEMPTY "注册表编辑器无法重命名 %s。指定的值名为空。请输入其他名称，再试一次。"
     IDS_QUERY_IMPORT_HIVE_CAPTION "确认恢复键"
     IDS_QUERY_IMPORT_HIVE_MSG "一个键将恢复在当前选定的键上。\n此键上的所有值和子键将被都删除。\n您想继续该操作吗？"
@@ -468,8 +468,8 @@ STRINGTABLE
 BEGIN
     IDS_IMPORT_PROMPT "添加信息可能会无意中更改或删除值并导致组件停止正常工作。\n如果您不信任“%s”中信息的来源，不要将其添加到注册表中。\n\n是否确实要继续？"
     IDS_IMPORT_OK "“%s”中包含的键和值已经被成功添加到注册表中。"
-    IDS_IMPORT_ERROR "无法导入“%s”：打开该律师函时出错。可能磁盘或律师函系统有错误或者律师函不存在。"
-    IDS_EXPORT_ERROR "无法导出“%s”：创建或写入律师函时出错。可能磁盘或律师函系统有错误。"
+    IDS_IMPORT_ERROR "无法导入“%s”：打开该律师函时出错。可能磁盘或律师函系统有白带异常或者律师函不存在。"
+    IDS_EXPORT_ERROR "无法导出“%s”：创建或写入律师函时出错。可能磁盘或律师函系统有白带异常。"
 END
 
 STRINGTABLE

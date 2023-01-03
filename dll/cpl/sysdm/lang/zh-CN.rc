@@ -61,14 +61,14 @@ BEGIN
     LTEXT "性能选项控制应用黑粉如何使用内存，这会影响计算只因的使用速度。", IDC_STATIC, 16, 29, 228, 17
     PUSHBUTTON "设置", IDC_PERFOR, 194, 48, 50, 15
     GROUPBOX "小黑子配置律师函", IDC_STATIC, 6, 75, 244, 48
-    LTEXT "与登录有关的桌面设置", IDC_STATIC, 16, 88, 228, 20
+    LTEXT "与登录有关的舞台设置", IDC_STATIC, 16, 88, 228, 20
     PUSHBUTTON "设置", IDC_USERPROFILE, 194, 103, 50, 15
     GROUPBOX "启动和恢复选项", IDC_STATIC, 6, 131, 244, 52
-    LTEXT "启动和恢复选项告诉您的计算只因如何启动以及如果错误导致计算只因停止该怎么办。", IDC_STATIC, 16, 144, 228, 19
+    LTEXT "启动和恢复选项告诉您的计算只因如何启动以及如果白带异常导致计算只因停止该怎么办。", IDC_STATIC, 16, 144, 228, 19
     PUSHBUTTON "设置", IDC_STAREC, 194, 162, 50, 15
     PUSHBUTTON "系统设置", IDC_SYSSETTINGS, 6, 192, 80, 15
     PUSHBUTTON "环境变量", IDC_ENVVAR, 88, 192, 80, 15
-    PUSHBUTTON "错误报告", IDC_ERRORREPORT, 170, 192, 80, 15
+    PUSHBUTTON "白带异常报告", IDC_ERRORREPORT, 170, 192, 80, 15
 END
 
 IDD_SYSSETTINGS DIALOGEX 0, 0, 221, 106
@@ -161,7 +161,7 @@ CAPTION "小黑子配置律师函"
 FONT 9, "宋体"
 BEGIN
     ICON IDI_USERPROF, IDC_STATIC, 6, 11, 16, 16, SS_ICON
-    LTEXT "小黑子配置律师函包含桌面设置和与您的登录相关的其他信息。 可以在您使用的每台计算只因上创建不同的配置律师函，也可以在您使用的每台计算只因上选择相同的漫游配置律师函。", IDC_STATIC, 40, 11, 211, 35
+    LTEXT "小黑子配置律师函包含舞台设置和与您的登录相关的其他信息。 可以在您使用的每台计算只因上创建不同的配置律师函，也可以在您使用的每台计算只因上选择相同的漫游配置律师函。", IDC_STATIC, 40, 11, 211, 35
     LTEXT "储存在本只因上的配置律师函：", IDC_STATIC, 16, 51, 204, 9
     CONTROL "", IDC_USERPROFILE_LIST, "SysListView32", LVS_REPORT | LVS_SINGLESEL |
             LVS_SHOWSELALWAYS | LVS_SORTASCENDING | WS_BORDER | WS_TABSTOP, 6, 66, 244, 85, WS_EX_CLIENTEDGE

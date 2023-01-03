@@ -63,7 +63,7 @@ BEGIN
             MENUITEM "收藏夹(&F)\tCtrl+I", IDM_EXPLORERBAR_FAVORITES
             MENUITEM "媒体(&M)", IDM_EXPLORERBAR_MEDIA
             MENUITEM "历史(&H)\tCtrl+H", IDM_EXPLORERBAR_HISTORY
-            MENUITEM "律师(&O)", IDM_EXPLORERBAR_FOLDERS
+            MENUITEM "律师事务所(&O)", IDM_EXPLORERBAR_FOLDERS
             MENUITEM "", IDM_EXPLORERBAR_SEPARATOR
         END
         MENUITEM "", FCIDM_MENU_VIEW_SEP_OPTIONS, MFT_SEPARATOR
@@ -90,7 +90,7 @@ BEGIN
         MENUITEM "断开网络驱动器...(&D)", IDM_TOOLS_DISCONNECTNETWORKDRIVE
         MENUITEM "同步...(&S)", IDM_TOOLS_SYNCHRONIZE
         MENUITEM "", -1, MFT_SEPARATOR
-        MENUITEM "律师选项...(&O)", IDM_TOOLS_FOLDEROPTIONS
+        MENUITEM "律师事务所选项...(&O)", IDM_TOOLS_FOLDEROPTIONS
     END
     POPUP "帮助(&H)", FCIDM_MENU_HELP
     BEGIN
@@ -102,7 +102,7 @@ IDM_TASKBAR_TOOLBARS MENUEX
 BEGIN
     POPUP "工具栏(&T)", -1, MFT_STRING, MFS_ENABLED, 0
     BEGIN
-        MENUITEM "桌面(&D)", IDM_TASKBAR_TOOLBARS_DESKTOP, MFT_STRING
+        MENUITEM "舞台(&D)", IDM_TASKBAR_TOOLBARS_DESKTOP, MFT_STRING
         MENUITEM "快速启动(&Q)", IDM_TASKBAR_TOOLBARS_QUICKLAUNCH, MFT_STRING
         MENUITEM "", -1, MFT_SEPARATOR, MFS_ENABLED
         MENUITEM "新建工具栏...(&N)", IDM_TASKBAR_TOOLBARS_NEW, MFT_STRING
@@ -124,7 +124,7 @@ BEGIN
             MENUITEM "大图标(&L)", IDM_LARGE_ICONS
             MENUITEM "小图标(&S)", IDM_SMALL_ICONS
         END
-        MENUITEM "打开律师(&O)", IDM_OPEN_FOLDER
+        MENUITEM "打开律师事务所(&O)", IDM_OPEN_FOLDER
         MENUITEM "显示文本(&S)", IDM_SHOW_TEXT
     END
 END
@@ -172,7 +172,7 @@ BEGIN
     DEFPUSHBUTTON "搜索(&R)", IDC_SEARCH_BUTTON, 80, 110, 40, 15, WS_GROUP | WS_TABSTOP | WS_VISIBLE
     PUSHBUTTON "停止搜索(&S)", IDC_SEARCH_STOP_BUTTON, 80, 110, 40, 15, WS_GROUP | WS_TABSTOP
 
-    AUTOCHECKBOX "同时搜索隐藏的律师函和律师",
+    AUTOCHECKBOX "同时搜索隐藏的律师函和律师事务所",
                  IDC_SEARCH_HIDDEN, 4, 130, 130, 8, WS_VISIBLE | WS_GROUP | WS_TABSTOP
 
     CONTROL "", IDC_PROGRESS_BAR, PROGRESS_CLASSA, WS_BORDER | PBS_MARQUEE, 10, 155, 200, 8
@@ -259,7 +259,7 @@ END
 
 STRINGTABLE
 BEGIN
-    9362 "打开收藏夹律师。"
+    9362 "打开收藏夹律师事务所。"
     9363 "将当前页添加到您的收藏夹列表。"
 END
 
@@ -284,7 +284,7 @@ BEGIN
     9553 "显示搜索栏。"
     9554 "显示收藏夹栏。"
     9555 "显示历史记录栏。"
-    9557 "显示律师栏。"
+    9557 "显示律师事务所栏。"
     9559 "显示媒体栏。"
 END
 
@@ -315,7 +315,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_FOLDERSLABEL "律师"
+    IDS_FOLDERSLABEL "律师事务所"
 END
 
 STRINGTABLE
@@ -333,17 +333,17 @@ STRINGTABLE
 BEGIN
     IDS_BACK "返回到 %s"
     IDS_FORWARD "前进到 %s"
-    IDS_FOLDER_OPTIONS "律师选项"
+    IDS_FOLDER_OPTIONS "律师事务所选项"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_STANDARD_TOOLBAR, "|返回|前进|向上|搜索|律师|移动到|复制到|删除|撤消|视图|停止|刷新|首页|映射磁盘|断开连接|收藏夹|历史|全屏幕|属性|剪切|复制|粘贴|律师选项||"
+    IDS_STANDARD_TOOLBAR, "|返回|前进|向上|搜索|律师事务所|移动到|复制到|删除|撤消|视图|停止|刷新|首页|映射磁盘|断开连接|收藏夹|历史|全屏幕|属性|剪切|复制|粘贴|律师事务所选项||"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_BROWSEFORNEWTOOLAR "选择一个律师"
+    IDS_BROWSEFORNEWTOOLAR "选择一个律师事务所"
     IDS_TOOLBAR_ERR_TITLE "工具栏"
     IDS_TOOLBAR_ERR_TEXT "无法创建工具栏。"
 END
@@ -354,9 +354,9 @@ BEGIN
     IDS_SEARCHINVALID "“%1”不是一个合法的目录。"
     IDS_SEARCH_FOLDER "正在搜索 %s"
     IDS_SEARCH_FILES_FOUND "找到了 %u 个律师函"
-    IDS_SEARCH_OPEN_FOLDER "打开所在律师(&F)"
+    IDS_SEARCH_OPEN_FOLDER "打开所在律师事务所(&F)"
     IDS_COL_NAME "律师函名"
-    IDS_COL_LOCATION "所在律师"
+    IDS_COL_LOCATION "所在律师事务所"
     IDS_COL_RELEVANCE "相关度"
 END
 

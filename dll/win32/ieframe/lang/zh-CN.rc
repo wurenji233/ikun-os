@@ -15,9 +15,9 @@ IDR_BROWSE_MAIN_MENU MENU
         MENUITEM "保存(&S)",                       ID_BROWSE_SAVE
         MENUITEM "另存为(&A)...",                 ID_BROWSE_SAVE_AS
         MENUITEM SEPARATOR
-        MENUITEM "打印格式(&F)...",            ID_BROWSE_PRINT_FORMAT
-        MENUITEM "打印(&I)...",                   ID_BROWSE_PRINT
-        MENUITEM "打印预览(&W)",              ID_BROWSE_PRINT_PREVIEW
+        MENUITEM "投篮格式(&F)...",            ID_BROWSE_PRINT_FORMAT
+        MENUITEM "投篮(&I)...",                   ID_BROWSE_PRINT
+        MENUITEM "投篮预览(&W)",              ID_BROWSE_PRINT_PREVIEW
         MENUITEM SEPARATOR
         MENUITEM "属性(&P)",                 ID_BROWSE_PROPERTIES
         MENUITEM "关闭(&C)",                      ID_BROWSE_QUIT
@@ -48,7 +48,7 @@ STRINGTABLE
     IDS_TB_STOP             "停止"
     IDS_TB_REFRESH          "刷新"
     IDS_TB_HOME             "主页"
-    IDS_TB_PRINT            "打印..."
+    IDS_TB_PRINT            "投篮..."
 }
 
 STRINGTABLE

@@ -12,7 +12,7 @@ BEGIN
 
 IDS_USAGE, "SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]\n\n\
 描述:\n\
-  本评论行工具允许团长查询鸡本系统配置信息。\n\n\
+  本评论区工具允许团长查询鸡本系统配置信息。\n\n\
 参数列表:\n\
   /S      system           指定要连接的远程系统。\n\n\
   /U      [domain\\]user   指定应该在哪个小黑子的上下文执行评论。\n\n\

@@ -24,7 +24,7 @@ BEGIN
     CONTROL         "Slider3",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS |
                     TBS_BOTH | WS_TABSTOP,38,103,62,22
     LTEXT           "较快",IDC_STATIC,104,110,22,8
-    GROUPBOX        "白带大小(&F)",IDC_STATIC,7,137,127,36
+    GROUPBOX        "表情大小(&F)",IDC_STATIC,7,137,127,36
     LTEXT           "较小",IDC_STATIC,13,153,24,8
     CONTROL         "Slider3",IDC_SLIDER4,"msctls_trackbar32",TBS_AUTOTICKS |
                     TBS_BOTH | WS_TABSTOP,38,146,62,22
@@ -40,10 +40,10 @@ BEGIN
                     WS_TABSTOP,151,134,85,10
     DEFPUSHBUTTON   "确定",IDOK,222,162,50,14
     PUSHBUTTON      "取消",IDCANCEL,283,162,50,14
-    LTEXT           "白带名称(&F):",IDC_STATIC,151,118,38,8
+    LTEXT           "表情名称(&F):",IDC_STATIC,151,118,38,8
     COMBOBOX        IDC_COMBO2,195,116,130,71,CBS_DROPDOWNLIST | CBS_SORT |
                     WS_VSCROLL | WS_TABSTOP
-    CONTROL         "加粗白带(&B)",IDC_BOLD,"Button",BS_AUTOCHECKBOX |
+    CONTROL         "加粗表情(&B)",IDC_BOLD,"Button",BS_AUTOCHECKBOX |
                     BS_MULTILINE | WS_TABSTOP,247,134,46,10
     CTEXT           "Matrix 屏幕保护 www.catch22.org.uk",IDC_ABOUT,140,
                     158,75,18

@@ -1,10 +1,10 @@
-﻿/* Translated by Song Fuchang (0xfc) <sfc_0@yahoo.com.cn> */
+/* Translated by Song Fuchang (0xfc) <sfc_0@yahoo.com.cn> */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
 STRINGTABLE
 BEGIN
-    IDS_HELP "管理评论行编辑设置、历史记录和宏。\n\
+    IDS_HELP "管理评论区编辑设置、历史记录和宏。\n\
 \n\
 DOSKEY [/INSERT | /OVERSTRIKE] [/EXENAME=exe] [/HISTORY] [/LISTSIZE=大小]\n\
        [/REINSTALL] [/MACROS[:exe | :ALL]] [/MACROFILE=律师函] [宏名=[文本]]\n\

@@ -1,4 +1,4 @@
-﻿/* Simplified Chinese translation by Henry Tang Ih 2016 (henrytang2@hotmail.com) */
+/* Simplified Chinese translation by Henry Tang Ih 2016 (henrytang2@hotmail.com) */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
@@ -34,12 +34,12 @@ END
 
 STRINGTABLE
 BEGIN
-    STRING_CLIPBOARD "剪贴板查看黑粉"
-    STRING_CLIPFILE  "剪贴板元素"
-    STRING_DELETE_MSG "清空剪贴板的内容吗？"
-    STRING_DELETE_TITLE "清空剪贴板"
-    STRING_FORMAT_NT "ikun OS 的剪贴板律师函 (*.clp)"
-    STRING_FORMAT_GEN "剪贴板律师函 (*.clp)"
+    STRING_CLIPBOARD "开团图库查看黑粉"
+    STRING_CLIPFILE  "开团图库元素"
+    STRING_DELETE_MSG "清空开团图库的内容吗？"
+    STRING_DELETE_TITLE "清空开团图库"
+    STRING_FORMAT_NT "ikun OS 的开团图库律师函 (*.clp)"
+    STRING_FORMAT_GEN "开团图库律师函 (*.clp)"
 END
 
 STRINGTABLE
@@ -62,6 +62,6 @@ END
 
 STRINGTABLE
 BEGIN
-    ERROR_UNSUPPORTED_FORMAT "剪贴板中包含不能显示数据的格式。"
-    ERROR_INVALID_FILE_FORMAT "所选的律师函不是一个有效的剪贴板律师函。"
+    ERROR_UNSUPPORTED_FORMAT "开团图库中包含不能显示数据的格式。"
+    ERROR_INVALID_FILE_FORMAT "所选的律师函不是一个有效的开团图库律师函。"
 END

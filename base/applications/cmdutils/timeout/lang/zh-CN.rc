@@ -20,11 +20,11 @@ TIMEOUT [/?] [/T] delay [/NOBREAK]\n\
 \n\
     /NOBREAK  忽略所有除 Ctrl+C 以外所有键盘输入。\n\
 "
-    IDS_ERROR_OUT_OF_RANGE "错误：计时器值必须在范围内（-1 到 99999）。\n"
-    IDS_ERROR_INVALID_HANDLE_VALUE "错误：无法获得终端的标准句柄（错误 %lu）。\n"
-    IDS_ERROR_READ_INPUT "错误：无法读取终端输入（错误 %lu）。\n"
-    IDS_ERROR_NO_TIMER_VALUE "错误：必须设置计时器值（-1 到 99999）。\n"
-    IDS_ERROR_ONE_TIME "错误：只需要一个计时器值。\n"
+    IDS_ERROR_OUT_OF_RANGE "白带异常：计时器值必须在范围内（-1 到 99999）。\n"
+    IDS_ERROR_INVALID_HANDLE_VALUE "白带异常：无法获得终端的标准句柄（白带异常 %lu）。\n"
+    IDS_ERROR_READ_INPUT "白带异常：无法读取终端输入（白带异常 %lu）。\n"
+    IDS_ERROR_NO_TIMER_VALUE "白带异常：必须设置计时器值（-1 到 99999）。\n"
+    IDS_ERROR_ONE_TIME "白带异常：只需要一个计时器值。\n"
     IDS_NOBREAK_INPUT "按 Ctrl+C 退出..."
     IDS_USER_INPUT "按任意键继续..."
     IDS_NOBREAK_INPUT_COUNT "正在等待 %d 秒，按 Ctrl+C 退出..."

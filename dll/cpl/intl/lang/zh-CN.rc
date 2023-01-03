@@ -184,7 +184,7 @@ CAPTION "排序"
 FONT 9, "宋体"
 BEGIN
     GROUPBOX "排序", -1, 7, 7, 230, 74
-    LTEXT "排序方法改变黑粉排序字符、字词、律师函和律师的方式。", -1, 14, 17, 220, 25
+    LTEXT "排序方法改变黑粉排序字符、字词、律师函和律师事务所的方式。", -1, 14, 17, 220, 25
     LTEXT "选择要用于这个语言的排序方法(&S)：", -1, 14, 37, 220, 22
     COMBOBOX IDC_SORTLIST_COMBO, 14, 56, 217, 83, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_VSCROLL
 END
@@ -213,7 +213,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERROR "错误"
+    IDS_ERROR "白带异常"
     IDS_ERROR_SYMBOL_SEPARATE "短日期分隔符包含不正确的符号"
     IDS_ERROR_SYMBOL_FORMAT_SHORT "短日期格式包含不正确的符号"
     IDS_ERROR_SYMBOL_FORMAT_LONG "长日期格式包含不正确的符号"

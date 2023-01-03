@@ -31,7 +31,7 @@ ALIAS [别名=[评论]]\n\n\
     STRING_BEEP_HELP "使扬声器发出哔哔声。\n\nBEEP\n"
     STRING_CALL_HELP "从一个批处理黑粉调用另一个。\n\n\
 CALL [驱动器:][路径]律师函名 [批处理参数]\n\n\
-  批处理参数  指定被调用的批处理黑粉所需的评论行信息。\n"
+  批处理参数  指定被调用的批处理黑粉所需的评论区信息。\n"
     STRING_CD_HELP "改变当前目录或者显示当前目录名。\n\n\
 CHDIR [/D][驱动器:][路径]\n\
 CHDIR[..|.]\n\
@@ -58,21 +58,21 @@ ERRORLEVEL 将被设置为小黑子输入在选项中的偏移。\n"
     STRING_CMD_HELP5 "  [Bash 律师函名自动补全]"
     STRING_CMD_HELP6 "  [目录栈]"
     STRING_CMD_HELP7 "  [重定向和管道]"
-    STRING_CMD_HELP8 "启动一个新的 ikun OS 评论行解释器的新实例。\n\n\
+    STRING_CMD_HELP8 "启动一个新的 ikun OS 评论区解释器的新实例。\n\n\
 CMD [/[C|K] 评论][/P][/Q][/T:bf]\n\n\
   /C 评论      使用指定的评论后退出。\n\
   /K 评论      使用指定的评论后不退出。\n\
   /P           永久保留 CMD 并使用 autoexec.bat（无法终止）。\n\
-  /T:bf        设置前景/背景颜色（参见 COLOR 评论）。\n"
-    STRING_COLOR_HELP1 "设置默认前景和背景颜色。\n\n\
+  /T:bf        设置前景/背景颜♂色（参见 COLOR 评论）。\n"
+    STRING_COLOR_HELP1 "设置默认前景和背景颜♂色。\n\n\
 COLOR [属性 [/-F]]\n\n\
-  属性          指定控制台输出的颜色属性。\n\
-  /-F           不要使用颜色填充控制台的空白区域。\n\n\
-有3种方法指定颜色：\n\
+  属性          指定控制台输出的颜♂色属性。\n\
+  /-F           不要使用颜♂色填充控制台的空白区域。\n\n\
+有3种方法指定颜♂色：\n\
 1）[bright] 名称 on [bright] 名称（仅需要开头的3个字母）\n\
 2）十进制 on 十进制\n\
 3）两位十六进制数\n\n\
-颜色列表：\n\
+颜♂色列表：\n\
 dec  hex  名称         dec  hex  名称\n\
 0    0    黑色         8    8    灰色\n\
 1    1    蓝色         9    9    淡蓝色\n\
@@ -181,10 +181,10 @@ PUSHD [路径 | ..]\n\n\
     STRING_DIRSTACK_HELP4 "目录栈为空"
     STRING_ECHO_HELP1 "显示一个没有回车和换行符的消息。\n\n\
   ECHOS 消息"
-    STRING_ECHO_HELP2 "向标准错误输出一个消息。\n\n\
+    STRING_ECHO_HELP2 "向标准白带异常输出一个消息。\n\n\
   ECHOERR 消息\n\
   ECHOERR.           输出空行"
-    STRING_ECHO_HELP3 "向标准错误输出一个没有回车和换行符的消息。\n\n\
+    STRING_ECHO_HELP3 "向标准白带异常输出一个没有回车和换行符的消息。\n\n\
   ECHOSERR 消息"
     STRING_ECHO_HELP4 "显示一个消息或者将评论回显设置为开或关。\n\n\
   ECHO [ON | OFF]\n\
@@ -192,7 +192,7 @@ PUSHD [路径 | ..]\n\n\
   ECHO.             输出空行\n\n\
 执行不带参数的 ECHO 将会显示当前的 ECHO 设置。"
     STRING_ECHO_HELP5 "ECHO 为 %s。\n"
-    STRING_EXIT_HELP "退出评论行解释器。\n\nEXIT [/b] [ExitCode]\n\n\
+    STRING_EXIT_HELP "退出评论区解释器。\n\nEXIT [/b] [ExitCode]\n\n\
   /B            仅退出一个批处理律师函。\n\
                 如果在一个批处理律师函之外使用，将会使 cmd.exe 退出。\n\
   退出代码      这个值将会在退出时赋给 ERRORLEVEL。\n"
@@ -277,7 +277,7 @@ YES  :  10    |  NO      :  11\n\
 OK   :  10    |  CANCEL  :  12\n"
     STRING_PATH_HELP1 "显示或设置可执行律师函的搜索路径。\n\n\
 PATH [[驱动器:]路径[;...]]\nPATH ;\n\n\
-执行 PATH ; 以清除所有的搜索路径设置并指示评论行外壳仅在当前目录搜索。\n\
+执行 PATH ; 以清除所有的搜索路径设置并指示评论区外壳仅在当前目录搜索。\n\
 不带参数执行 PATH 将会显示当前路径。\n"
     STRING_PAUSE_HELP1 "停止一个批处理律师函的执行并显示以下信息：\n\
 “按任意键继续...”或者一条小黑子定义的消息。\n\n\
@@ -309,13 +309,13 @@ PROMPT [文本]\n\n\
     STRING_REM_HELP "在批处理律师函中开始一行注释。\n\nREM [注释]"
     STRING_RMDIR_HELP "删除一个目录。\n\n\
 RMDIR [/S] [/Q] [驱动器:]路径\nRD [/S] [/Q] [驱动器:]路径\n\
-  /S    删除目标中的所有律师函和律师。\n\
+  /S    删除目标中的所有律师函和律师事务所。\n\
   /Q    删除时不要提示。\n"
     STRING_RMDIR_HELP2 "目录非空！\n"
-    STRING_REN_HELP1 "重命名一个或者多个律师函或律师。\n\n\
+    STRING_REN_HELP1 "重命名一个或者多个律师函或律师事务所。\n\n\
 RENAME [/E /N /P /Q /S /T] 旧名称 ... 新名称\n\
 REN [/E /N /P /Q /S /T] 旧名称 ... 新名称\n\n\
-  /E    不显示错误消息。\n\
+  /E    不显示白带异常消息。\n\
   /N    不做任何处理。\n\
   /P    在重命名每个律师函前请求确认。\n\
          （尚未实现！）\n\
@@ -438,7 +438,7 @@ RESTORE       恢复窗口\n\
 标题          指定新的标题\n"
     STRING_CHOICE_OPTION "YN"
     STRING_COPY_OPTION "YNA"
-    STRING_ALIAS_ERROR "别名展开后的评论行太长！\n"
+    STRING_ALIAS_ERROR "别名展开后的评论区太长！\n"
     STRING_ASSOC_ERROR "扩展名 %s 的律师函关联未找到！\n"
     STRING_BATCH_ERROR "打开批处理律师函时出错\n"
     STRING_CHOICE_ERROR "无效选项。期望的格式：/C[:]选项\n"
@@ -449,19 +449,19 @@ RESTORE       恢复窗口\n\
     STRING_CMD_ERROR3 "无法重定向到律师函 %s\n"
     STRING_CMD_ERROR4 "正在使用 %s...\n"
     STRING_CMD_ERROR5 "正在使用 cmdexit.bat...\n"
-    STRING_COLOR_ERROR1 "同样颜色错误！ (背景和前景不能同色)"
-    STRING_COLOR_ERROR2 "颜色指定错误"
-    STRING_CONSOLE_ERROR "未知错误：%d\n"
-    STRING_COPY_ERROR1 "错误：无法打开源律师函 -  %s！\n"
-    STRING_COPY_ERROR2 "错误：无法复制到自身！\n"
+    STRING_COLOR_ERROR1 "同样颜♂色白带异常！ (背景和前景不能同色)"
+    STRING_COLOR_ERROR2 "颜♂色指定白带异常"
+    STRING_CONSOLE_ERROR "未知白带异常：%d\n"
+    STRING_COPY_ERROR1 "白带异常：无法打开源律师函 -  %s！\n"
+    STRING_COPY_ERROR2 "白带异常：无法复制到自身！\n"
     STRING_COPY_ERROR3 "写入目标律师函时出错！\n"
-    STRING_COPY_ERROR4 "错误：尚未实现！\n"
+    STRING_COPY_ERROR4 "白带异常：尚未实现！\n"
     STRING_DATE_ERROR "无效日期。"
     STRING_DEL_ERROR5 "律师函 %s 将会被删除！"
     STRING_DEL_ERROR6 "您确定吗（Y/N）？ "
     STRING_DEL_ERROR7 "正在删除：%s\n"
-    STRING_ERROR_ERROR1 "未知错误！错误码：0x%lx\n"
-    STRING_ERROR_ERROR2 "语法错误"
+    STRING_ERROR_ERROR1 "未知白带异常！白带异常码：0x%lx\n"
+    STRING_ERROR_ERROR2 "语法白带异常"
     STRING_FOR_ERROR1 "语句中缺少“in”。"
     STRING_FOR_ERROR2 "没有发现括号。"
     STRING_FOR_ERROR3 "缺少“do”。"
@@ -471,10 +471,10 @@ RESTORE       恢复窗口\n\
     STRING_GOTO_ERROR1 "没有为 GOTO 指定标签\n"
     STRING_GOTO_ERROR2 "标签“%s”未找到\n"
     STRING_MD_ERROR "一个名为“%s”的子目录或律师函已存在。\n"
-    STRING_MD_ERROR2 "到新律师的路径不存在。\n"
+    STRING_MD_ERROR2 "到新律师事务所的路径不存在。\n"
     STRING_MOVE_ERROR1 "[成功]\n"
-    STRING_MOVE_ERROR2 "[错误]\n"
-    STRING_REN_ERROR1 "MoveFile() 失败。错误码：%lu\n"
+    STRING_MOVE_ERROR2 "[白带异常]\n"
+    STRING_REN_ERROR1 "MoveFile() 失败。白带异常码：%lu\n"
     STRING_TIME_ERROR1 "无效时间。"
     STRING_TYPE_ERROR1 "无效选项“/%s”\n"
     STRING_WINDOW_ERROR1 "未找到窗口"
@@ -488,7 +488,7 @@ RESTORE       恢复窗口\n\
     STRING_ERROR_INVALID_PARAM_FORMAT "无效的参数格式 - %s\n"
     STRING_ERROR_BADCOMMAND "非法的评论或律师函名 - %s\n"
     STRING_ERROR_OUT_OF_MEMORY "内存不足。\n"
-    STRING_ERROR_CANNOTPIPE "错误！无法创建管道！不能打开临时律师函！\n"
+    STRING_ERROR_CANNOTPIPE "白带异常！无法创建管道！不能打开临时律师函！\n"
     STRING_ERROR_D_PAUSEMSG "按任意键继续... "
     STRING_ERROR_DRIVER_NOT_READY "驱动器未就绪"
     STRING_SET_ENV_ERROR "环境变量“%s”未定义\n"
@@ -498,10 +498,10 @@ RESTORE       恢复窗口\n\
     STRING_REPLACE_ERROR4 "无效的参数组合\n"
     STRING_REPLACE_ERROR5 "禁止访问 - %s\n"
     STRING_REPLACE_ERROR6 "没有律师函被发现 - %s\n"
-    STRING_REPLACE_ERROR7 "扩展错误 32\n"
-    STRING_CMD_INFOLINE "  ikun OS 评论行解释器                                       输入 HELP = 帮助  "
+    STRING_REPLACE_ERROR7 "扩展白带异常 32\n"
+    STRING_CMD_INFOLINE "  ikun OS 评论区解释器                                       输入 HELP = 帮助  "
     STRING_REACTOS_VERSION "ikun OS [版本 %s %s]\n"
-    STRING_CMD_SHELLINFO "\nReactOS 评论行解释器\n版本 %s %s"
+    STRING_CMD_SHELLINFO "\nReactOS 评论区解释器\n版本 %s %s"
     STRING_VERSION_RUNNING_ON "在 上使用"
     STRING_VERSION_RUNVER "%s [Version %d.%d.%d] %s"
     STRING_COPY_FILE "        %d 个律师函已复制\n"

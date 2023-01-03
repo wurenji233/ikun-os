@@ -37,7 +37,7 @@ BEGIN
     IDS_SEVERITY_SUCCESS        "成功"
     IDS_SEVERITY_INFORMATIONAL  "系统信息"
     IDS_SEVERITY_WARNING        "系统警告"
-    IDS_SEVERITY_ERROR          "系统错误"
+    IDS_SEVERITY_ERROR          "系统白带异常"
 END
 
 STRINGTABLE

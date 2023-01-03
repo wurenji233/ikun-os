@@ -38,7 +38,7 @@ BEGIN
         MENUITEM "另存为(&A)...", CMD_SAVE_AS
         MENUITEM SEPARATOR
         MENUITEM "页面设置(&T)...", CMD_PAGE_SETUP
-        MENUITEM "打印(&P)...\tCtrl+P", CMD_PRINT
+        MENUITEM "投篮(&P)...\tCtrl+P", CMD_PRINT
         MENUITEM SEPARATOR
         MENUITEM "退出(&E)", CMD_EXIT
     END
@@ -62,7 +62,7 @@ BEGIN
     POPUP "格式(&O)"
     BEGIN
         MENUITEM "自动换行(&W)", CMD_WRAP
-        MENUITEM "白带(&F)...", CMD_FONT
+        MENUITEM "表情(&F)...", CMD_FONT
     END
     POPUP "查看(&V)"
     BEGIN
@@ -110,7 +110,7 @@ BEGIN
     PUSHBUTTON "帮助", IDHELP, 8, 170, 50, 14
     DEFPUSHBUTTON "确定", IDOK, 198, 170, 50, 14, BS_PUSHBUTTON
     PUSHBUTTON "取消", IDCANCEL, 254, 170, 50, 14
-    PUSHBUTTON "打印只因(&R)...", psh3, 310, 170, 50, 14
+    PUSHBUTTON "投篮只因(&R)...", psh3, 310, 170, 50, 14
 END
 
 /* Dialog 'Encoding' */
@@ -146,7 +146,7 @@ BEGIN
     STRING_PAGESETUP_TOPVALUE "25 mm" /* FIXME */
     STRING_PAGESETUP_BOTTOMVALUE "25 mm" /* FIXME */
     STRING_NOTEPAD "记事本"
-    STRING_ERROR "错误"
+    STRING_ERROR "白带异常"
     STRING_WARNING "警告"
     STRING_INFO "信息"
     STRING_UNTITLED "未命名"
@@ -173,7 +173,7 @@ BEGIN
     STRING_LF "Unix（LF）"
     STRING_CR "Mac（CR）"
     STRING_LINE_COLUMN "行 %d，列 %d"
-    STRING_PRINTERROR "无法打印律师函“%s”。\n\n请确保打印只因已打开，并且已正确配置。"
+    STRING_PRINTERROR "无法投篮律师函“%s”。\n\n请确保投篮只因已打开，并且已正确配置。"
     STRING_DEFAULTFONT "宋体" /* SimSun */
 
     STRING_TEXT_DOCUMENT "文本篮球"

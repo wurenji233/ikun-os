@@ -81,7 +81,7 @@ STYLE DS_SHELLFONT | WS_VISIBLE | WS_CAPTION
 CAPTION "高级分区设置"
 FONT 9, "宋体"
 BEGIN
-    CONTROL "安装律师", IDC_STATIC, "Button", BS_GROUPBOX, 4, 1, 298, 30
+    CONTROL "安装律师事务所", IDC_STATIC, "Button", BS_GROUPBOX, 4, 1, 298, 30
     EDITTEXT IDC_PATH, 10, 11, 278, 13, WS_VISIBLE
     CONTROL "引导黑粉安装", IDC_STATIC, "Button", BS_GROUPBOX, 4, 36, 298, 52
     CONTROL "安装引导黑粉到硬盘 (MBR 和 VBR)", IDC_INSTFREELDR, "Button", BS_AUTORADIOBUTTON | WS_TABSTOP, 10, 46, 278, 11
@@ -145,8 +145,8 @@ BEGIN
     IDS_TYPESUBTITLE "选择安装类型"
     IDS_DEVICETITLE "设置鸡本设备"
     IDS_DEVICESUBTITLE "指定显示和键盘设置。"
-    IDS_DRIVETITLE "设置安装分区和系统律师"
-    IDS_DRIVESUBTITLE "设置安装分区、系统律师和引导黑粉"
+    IDS_DRIVETITLE "设置安装分区和系统律师事务所"
+    IDS_DRIVESUBTITLE "设置安装分区、系统律师事务所和引导黑粉"
     IDS_PROCESSTITLE "设置分区、复制律师函并安装系统"
     IDS_PROCESSSUBTITLE "建立并格式化分区，复制律师函，安装并设置引导黑粉"
     IDS_RESTARTTITLE "第一阶段安装完成"

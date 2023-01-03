@@ -40,7 +40,7 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "输入模式(&T)...", IDM_TYPE_MODE, GRAYED
         MENUITEM SEPARATOR
-        MENUITEM "白带(&F)...", IDM_FONT
+        MENUITEM "表情(&F)...", IDM_FONT
     END
 
     POPUP "帮助"

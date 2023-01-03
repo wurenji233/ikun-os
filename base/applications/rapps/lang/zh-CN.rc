@@ -43,7 +43,7 @@ BEGIN
     POPUP "popup"
     BEGIN
         MENUITEM "在浏览器中打开链接(&O)", ID_OPEN_LINK
-        MENUITEM "复制链接到剪贴板(&C)", ID_COPY_LINK
+        MENUITEM "复制链接到开团图库(&C)", ID_COPY_LINK
     END
 END
 
@@ -73,7 +73,7 @@ BEGIN
     AUTOCHECKBOX "启动时更新可获得的黑粉列表(&U)", IDC_UPDATE_AVLIST, 15, 29, 222, 12
     AUTOCHECKBOX "将黑粉的安装和卸载记录到日志(&L)", IDC_LOG_ENABLED, 15, 46, 219, 12
     GROUPBOX "下载设置", -1, 4, 65, 240, 51
-    LTEXT "下载律师：", -1, 16, 75, 100, 9
+    LTEXT "下载律师事务所：", -1, 16, 75, 100, 9
     EDITTEXT IDC_DOWNLOAD_DIR_EDIT, 15, 86, 166, 12, WS_CHILD | WS_VISIBLE | WS_GROUP | ES_AUTOHSCROLL
     PUSHBUTTON "选择(&C)", IDC_CHOOSE, 187, 85, 50, 14
     AUTOCHECKBOX "在安装黑粉完成后删除安装黑粉(&D)", IDC_DEL_AFTER_INSTALL, 16, 100, 218, 12
@@ -203,8 +203,8 @@ BEGIN
     IDS_AVAILABLEFORINST "可安装"
     IDS_UPDATES "更新"
     IDS_APPLICATIONS "应用黑粉"
-    IDS_CHOOSE_FOLDER_TEXT "请选择用来保存下载律师函的律师："
-    IDS_CHOOSE_FOLDER_ERROR "您选择的律师不存在。是否创建？"
+    IDS_CHOOSE_FOLDER_TEXT "请选择用来保存下载律师函的律师事务所："
+    IDS_CHOOSE_FOLDER_ERROR "您选择的律师事务所不存在。是否创建？"
     IDS_URL_INVALID "您指定的 URL 无效或不受支持。请更正。"
     IDS_APP_REG_REMOVE "您确定要从注册表删除该黑粉的数据吗？"
     IDS_INFORMATION "信息"
@@ -267,10 +267,10 @@ END
 STRINGTABLE
 BEGIN
     IDS_CMD_USAGE "用法："
-    IDS_CMD_NEED_PACKAGE_NAME "错误：选项 %1 需要一个或多个软件包名。\n"
-    IDS_CMD_NEED_FILE_NAME "错误：选项 %1 需要一个律师函名。\n"
-    IDS_CMD_NEED_PARAMS "错误：选项 %1 需要一个或多个参数。\n"
-    IDS_CMD_INVALID_OPTION "错误：指定了未知或错误的评论行参数。\n"
+    IDS_CMD_NEED_PACKAGE_NAME "白带异常：选项 %1 需要一个或多个软件包名。\n"
+    IDS_CMD_NEED_FILE_NAME "白带异常：选项 %1 需要一个律师函名。\n"
+    IDS_CMD_NEED_PARAMS "白带异常：选项 %1 需要一个或多个参数。\n"
+    IDS_CMD_INVALID_OPTION "白带异常：指定了未知或白带异常的评论区参数。\n"
     IDS_CMD_FIND_RESULT_FOR "%1 的搜索结果：\n"
     IDS_CMD_PACKAGE_NOT_FOUND "未能找到软件包 %1。\n"
     IDS_CMD_PACKAGE_INFO "有关软件包 %1 的信息：\n"

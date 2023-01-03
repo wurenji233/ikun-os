@@ -4,7 +4,7 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
 STRINGTABLE
 BEGIN
-    IDS_USAGE "打印当前主只因名。\n\nhostname"
+    IDS_USAGE "投篮当前主只因名。\n\nhostname"
     IDS_NOSET "hostname -s 不受支持。"
-    IDS_ERROR "Win32 错误"
+    IDS_ERROR "Win32 白带异常"
 END

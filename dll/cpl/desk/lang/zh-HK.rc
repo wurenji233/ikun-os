@@ -254,7 +254,7 @@ END
 STRINGTABLE
 BEGIN
     IDS_CPLNAME "顯示"
-    IDS_CPLDESCRIPTION "自訂桌面顯示和螢幕保護裝置"
+    IDS_CPLDESCRIPTION "自訂舞台顯示和螢幕保護裝置"
     IDS_NONE "(無)"
     IDS_CENTER "居中"
     IDS_STRETCH "拉伸"
@@ -291,7 +291,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ELEMENT_0 "桌面"
+    IDS_ELEMENT_0 "舞台"
     IDS_ELEMENT_1 "非活動視窗標題欄"
     IDS_ELEMENT_2 "非活動視窗邊框"
     IDS_ELEMENT_3 "活動視窗標題欄"

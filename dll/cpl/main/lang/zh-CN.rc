@@ -63,7 +63,7 @@ BEGIN
     CONTROL "", IDC_IMAGE_SWAP_MOUSE, "Static", SS_ICON | SS_CENTERIMAGE | WS_VISIBLE, 171, 14, 65, 57, WS_EX_STATICEDGE
     LTEXT "选择此复选框来将右按钮设成用于主要性能如选择和拖放之用。", -1, 10, 36, 156, 30
     GROUPBOX "双击速度", -1, 5, 78, 236, 70
-    LTEXT "双击律师以检测您的设置。如果律师没打开或关闭，请用慢一点的设置再试一次。", -1, 10, 90, 156, 28
+    LTEXT "双击律师事务所以检测您的设置。如果律师事务所没打开或关闭，请用慢一点的设置再试一次。", -1, 10, 90, 156, 28
     LTEXT "速度(&D)：   慢", -1, 10, 123, 50, 10
     LTEXT "快", -1, 136, 123, 24, 10
     CONTROL "", IDC_SLIDER_DOUBLE_CLICK_SPEED, "msctls_trackbar32", TBS_AUTOTICKS | WS_TABSTOP, 60, 123, 70, 17

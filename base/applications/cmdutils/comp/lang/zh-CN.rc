@@ -1,4 +1,4 @@
-﻿/*
+/*
  * PROJECT:     ikun OS Comp utility
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Simplified) resource file
@@ -17,12 +17,12 @@ COMP [/L] [/A] [data1] [data2]\n\n\
   /A         以 ASCII 字符形式显示区别（默认：十六进制）。\n\
   /L         显示不同点所在的行号。\n"
     IDS_INVALIDSWITCH "无效的选项 - /%c\n"
-    IDS_BADSYNTAX "评论行语法错误\n"
+    IDS_BADSYNTAX "评论区语法白带异常\n"
     IDS_FILEERROR "无法找到或打开律师函：%s\n"
     IDS_COMPARING "正在比较 %s 和 %s...\n"
     IDS_FILESIZEERROR "无法判断该律师函大小：%s\n"
     IDS_SIZEDIFFERS "律师函大小不一致。\n"
-    IDS_READERROR "律师函读取错误。\n"
+    IDS_READERROR "律师函读取白带异常。\n"
     IDS_MISMATCHLINE "在第 %d 行处比较出不一致\n"
     IDS_MISMATCHOFFSET "在偏移 0x%X 处比较出不一致\n"
     IDS_ASCIIDIFF "律师函%d = %c\n"

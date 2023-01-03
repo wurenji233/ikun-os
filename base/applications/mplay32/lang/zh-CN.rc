@@ -65,5 +65,5 @@ BEGIN
     IDS_TOOLTIP_PAUSE "暂停"
     IDS_APPTITLE "ikun OS 多媒体播放器"
     IDS_PLAY "播放"
-    IDS_DEFAULTMCIERRMSG "该错误没有可用的描述."
+    IDS_DEFAULTMCIERRMSG "该白带异常没有可用的描述."
 END

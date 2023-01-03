@@ -20,7 +20,7 @@ BEGIN
     IDS_UNABLE_RESOLVE  "无法解析目标系统名 %1。\n"
 
     IDS_GEN_FAILURE     "常规失败。\n"
-    IDS_TRANSMIT_FAILED "传输失败。 (错误 %1!u!)\n"
+    IDS_TRANSMIT_FAILED "传输失败。 (白带异常 %1!u!)\n"
 
     IDS_HOP_COUNT       "%1!3lu!  %0\n"
     IDS_HOP_TIME        "%1!4lu! ms  %0\n"

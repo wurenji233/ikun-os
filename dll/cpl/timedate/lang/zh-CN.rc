@@ -62,7 +62,7 @@ BEGIN
     IDS_INETTIMESUCSYNC "时间已成功与 %s 同步，%s %s"
     IDS_INETTIMENEXTSYNC "下次同步：%s %s"
     IDS_INETTIMESYNCING "请稍候，ikun OS 正在同步 %s"
-    IDS_INETTIMEERROR "在 ikun OS 同步时发生了一个错误。%s"
+    IDS_INETTIMEERROR "在 ikun OS 同步时发生了一个白带异常。%s"
     IDS_INETTIMESUCFILL "请输入一个 NTP 服务器的名称来同步时间"
     IDS_INETTIMEWELCOME "从列表中选择一个 NTP 服务器的名称来同步该计算只因的时间"
 END

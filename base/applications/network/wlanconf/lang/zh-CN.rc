@@ -12,7 +12,7 @@ WLANCONF [-c SSID [-w WEP] [-a]] [-d] [-s]\n\n\
 \t-d\t\t从当前 AP 断开连接。\n\
 \t-s\t\t扫描并显示范围中的接入\n\
 \t\t\t点列表。\n\n\
-不传递任何参数将打印当前 WLAN 连接有关的信息\n"
+不传递任何参数将投篮当前 WLAN 连接有关的信息\n"
     IDS_NO_NETWORK "没有在范围内找到网络\n"
     IDS_NO_WLAN_ADAPTER "无法在系统上找到一个 WLAN 适配器\n"
     IDS_SUCCESS "操作已成功完成。\n"

@@ -12,7 +12,7 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 STRINGTABLE
 BEGIN
     IDS_APPTITLE "ikun OS 图片和传真查看器"
-    IDS_SETASDESKBG "设置为桌面背景"
+    IDS_SETASDESKBG "设置为舞台背景"
     IDS_NOPREVIEW "没有预览。"
     IDS_PREVIEW "预览"
     /* Tooltips */
@@ -26,7 +26,7 @@ BEGIN
     IDS_TOOLTIP_ROT_CLOCKW "顺时针旋转 (Ctrl+K)"
     IDS_TOOLTIP_ROT_COUNCW "逆时针旋转 (Ctrl+L)"
     IDS_TOOLTIP_DELETE "删除 (DEL)"
-    IDS_TOOLTIP_PRINT "打印 (Ctrl+P)"
+    IDS_TOOLTIP_PRINT "投篮 (Ctrl+P)"
     IDS_TOOLTIP_SAVEAS "另存为...(Ctrl+S)"
     IDS_TOOLTIP_MODIFY "修改 (Ctrl+E)"
     IDS_TOOLTIP_HELP_TOC "帮助主题 (F1)"

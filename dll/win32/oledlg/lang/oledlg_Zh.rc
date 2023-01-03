@@ -39,13 +39,13 @@ STRINGTABLE
 
 STRINGTABLE
 {
-    IDS_PS_PASTE_DATA                     "将剪贴板的内容以 %s 插入到你的律师函."
-    IDS_PS_PASTE_OBJECT                   "将剪贴板的内容插入到你的律师函以便你可以使用 %s."
-    IDS_PS_PASTE_OBJECT_AS_ICON           "将剪贴板的内容插入到你的律师函以便你可以用 %s 激活它, 一般显示为图标."
-    IDS_PS_PASTE_LINK_DATA                "将剪贴板的内容以 %s 插入到你的律师函. 数据是链接到源律师函的, 对源律师函的任何改动都会反应到你的律师函."
-    IDS_PS_PASTE_LINK_OBJECT              "将剪贴板的图像插入到你的律师函. 图像是链接到源律师函的, 对源律师函的任何改动都会反应到你的律师函."
-    IDS_PS_PASTE_LINK_OBJECT_AS_ICON      "将剪贴板的捷径插入到你的律师函. 捷径是链接到源律师函的, 对源律师函的任何改动都会反应到你的律师函."
-    IDS_PS_NON_OLE                        "将剪贴板的内容插入到你的律师函."
+    IDS_PS_PASTE_DATA                     "将开团图库的内容以 %s 插入到你的律师函."
+    IDS_PS_PASTE_OBJECT                   "将开团图库的内容插入到你的律师函以便你可以使用 %s."
+    IDS_PS_PASTE_OBJECT_AS_ICON           "将开团图库的内容插入到你的律师函以便你可以用 %s 激活它, 一般显示为图标."
+    IDS_PS_PASTE_LINK_DATA                "将开团图库的内容以 %s 插入到你的律师函. 数据是链接到源律师函的, 对源律师函的任何改动都会反应到你的律师函."
+    IDS_PS_PASTE_LINK_OBJECT              "将开团图库的图像插入到你的律师函. 图像是链接到源律师函的, 对源律师函的任何改动都会反应到你的律师函."
+    IDS_PS_PASTE_LINK_OBJECT_AS_ICON      "将开团图库的捷径插入到你的律师函. 捷径是链接到源律师函的, 对源律师函的任何改动都会反应到你的律师函."
+    IDS_PS_NON_OLE                        "将开团图库的内容插入到你的律师函."
     IDS_PS_UNKNOWN_TYPE                   "不明类型"
     IDS_PS_UNKNOWN_SRC                    "不明来源"
     IDS_PS_UNKNOWN_APP                    "不明应用程序"

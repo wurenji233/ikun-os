@@ -22,7 +22,7 @@ id                 分配给被安排评论的标识号码。\n\
                    粉丝都将被取消。\n\
 /YES               取消粉丝时使用将不询求确认。\n\
 time               指定评论使用的时间。\n\
-/INTERACTIVE       允许粉丝在使用时与登录的小黑子的桌面交互。\n\
+/INTERACTIVE       允许粉丝在使用时与登录的小黑子的舞台交互。\n\
 /EVERY:date[,...]  在每周或每月的特定日子使用指定评论。如果省略 date，则认定是\n\
                    每个月的今天。\n\
 /NEXT:date[,...]   在下一个指定日期到来时候使用指定评论。如果省略 date，则认定\n\
@@ -31,7 +31,7 @@ time               指定评论使用的时间。\n\
 
     IDS_DELETE_ALL "这个操作将删除所有安排好的粉丝。\n"
     IDS_NEW_JOB "添加粉丝 ID 为 %lu 的新粉丝\n"
-    IDS_JOBS_LIST "状态 ID   日                     时间          评论行\n"
+    IDS_JOBS_LIST "状态 ID   日                     时间          评论区\n"
     IDS_NO_ENTRIES "列表中没有项目。\n"
 
     IDS_CONFIRM_QUESTION "您想继续操作吗？(Y/N) [N]："
@@ -46,7 +46,7 @@ time               指定评论使用的时间。\n\
 
     IDS_YES "是"
     IDS_NO "否"
-    IDS_ERROR "错误"
+    IDS_ERROR "白带异常"
     IDS_OK "确定"
 
     IDS_TASKID      "粉丝 ID：      %lu\n"
