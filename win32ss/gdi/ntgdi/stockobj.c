@@ -94,7 +94,7 @@ static LOGFONTW SystemFixedFont =
 
 static LOGFONTW DefaultGuiFont =
     { -11, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE, DEFAULT_CHARSET,
-      OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, /*DEFAULT_QUALITY*/ PROOF_QUALITY, DEFAULT_PITCH | FF_DONTCARE, L"MS Shell Dlg"
+      OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, /*DEFAULT_QUALITY*/ PROOF_QUALITY, DEFAULT_PITCH | FF_DONTCARE, L"HarmonyOS Sans SC"
     };
 
 HGDIOBJ StockObjects[NB_STOCK_OBJECTS];
@@ -164,7 +164,7 @@ CreateStockFonts(void)
         case 936:
             /* Simplified Chinese */
             bIsCJK = TRUE;
-            wcscpy(DefaultGuiFont.lfFaceName, HarmonyOS_Sans);//À≠tm”√ÀŒÃÂ◊ˆUI,harmonyOSµƒ∫⁄ÃÂ∂‡œ„
+            wcscpy(DefaultGuiFont.lfFaceName, HarmonyOS_Sans);//Ë∞ÅtmÁî®ÂÆã‰ΩìÂÅöUI,harmonyOSÁöÑÈªë‰ΩìÂ§öÈ¶ô
             break;
 
         case 950:
