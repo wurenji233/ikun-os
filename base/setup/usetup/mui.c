@@ -61,7 +61,7 @@ FindLanguageIndex(VOID)
     {
         /* Default to en-US */
         return 0;   // FIXME!!
-        // SelectedLanguageId = L"00000409";
+        SelectedLanguageId = L"00000804";
     }
 
     while (ResourceList[lngIndex].MuiPages != NULL)
@@ -561,6 +561,7 @@ SetConsoleCodePage(VOID)
     {
         case 28606: /* Romanian */
         case 932: /* Japanese */
+        case 936: /* Chinese */
             /* Set special characters */
             CharBullet = 0x07;
             CharBlock = 0x01;

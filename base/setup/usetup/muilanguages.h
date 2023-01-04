@@ -395,9 +395,9 @@
 // #ifdef LANGUAGE_WA_BE
     // #include "lang/wa-BE.h"
 // #endif
-// #ifdef LANGUAGE_ZH_CN
-    // #include "lang/zh-CN.h"
-// #endif
+ #ifdef LANGUAGE_ZH_CN
+     #include "lang/zh-CN.h"
+ #endif
 // #ifdef LANGUAGE_ZH_HK
     // #include "lang/zh-HK.h"
 // #endif
