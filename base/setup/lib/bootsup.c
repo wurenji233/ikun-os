@@ -76,7 +76,7 @@ CreateFreeLoaderReactOSEntries(
     Options->OsLoadOptions  = NULL; // L"";
     AddBootStoreEntry(BootStoreHandle, BootEntry, MAKESTRKEY(L"ReactOS"));
 
-    /*
+#if false
     
     // ReactOS_Debug 
     // BootEntry->BootEntryKey = MAKESTRKEY(L"ReactOS_Debug");
@@ -128,7 +128,8 @@ CreateFreeLoaderReactOSEntries(
 #endif
 
 
-    /* DefaultOS=ReactOS */
+    // DefaultOS=ReactOS
+#endif
 #if DBG && !defined(_WINKD_)
     if (IsUnattendedSetup)
     {
@@ -136,7 +137,6 @@ CreateFreeLoaderReactOSEntries(
     }
     else
 #endif
-        */
     {
 //#if DBG
 //        BootOptions.CurrentBootEntryKey = MAKESTRKEY(L"ReactOS_Debug");
