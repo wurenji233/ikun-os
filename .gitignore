@@ -16,3 +16,5 @@ sdk
 .vs
 out/build
 build
+*.filters
+*.user

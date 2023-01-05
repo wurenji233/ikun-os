@@ -52,7 +52,7 @@ static const COLORREF SysColors[] =
 HDC hSystemBM;
 
 /*  GDI stock objects */
-
+#if false
 static LOGPEN WhitePen =
     { PS_SOLID, { 0, 0 }, RGB(255,255,255) };
 
@@ -95,9 +95,8 @@ static LOGFONTW DefaultGuiFont =
     { -11, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE, DEFAULT_CHARSET,
       OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, /*DEFAULT_QUALITY*/ PROOF_QUALITY, DEFAULT_PITCH | FF_DONTCARE, L"HarmonyOS Sans SC"
     };
-
 HGDIOBJ StockObjects[NB_STOCK_OBJECTS];
-
+#endif
 static
 HPEN
 FASTCALL
