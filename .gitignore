@@ -12,6 +12,6 @@ modules/[Aa][Hh][Kk]_[Tt]ests
 .project
 .settings
 .vscode
-sdk/tools/winesync/winesync.cfg
-/.vs
-/out/build/x64-Debug
+sdk
+.vs
+out/build
