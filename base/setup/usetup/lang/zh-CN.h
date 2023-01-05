@@ -1,6 +1,6 @@
 #pragma once
 
-static MUI_ENTRY enUSSetupInitPageEntries[] =
+static MUI_ENTRY zhCNSetupInitPageEntries[] =
 {
     {
         4,
@@ -38,7 +38,7 @@ static MUI_ENTRY enUSSetupInitPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSLanguagePageEntries[] =
+static MUI_ENTRY zhCNLanguagePageEntries[] =
 {
     {
         4,
@@ -90,7 +90,7 @@ static MUI_ENTRY enUSLanguagePageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSWelcomePageEntries[] =
+static MUI_ENTRY zhCNWelcomePageEntries[] =
 {
     {
         4,
@@ -178,7 +178,7 @@ static MUI_ENTRY enUSWelcomePageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSIntroPageEntries[] =
+static MUI_ENTRY zhCNIntroPageEntries[] =
 {
     {
         4,
@@ -204,14 +204,14 @@ static MUI_ENTRY enUSIntroPageEntries[] =
     {
         6,
         12,
-        "所以特性并不是完全的并具有高强度的更新，因此其只应当",
+        "所以其特性并不是完全的并具有高强度的更新，因此其只",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         13,
-        "用于测试和娱乐用途，不适合作为主力系统使用。",
+        "应当用于测试和娱乐用途，不适合作为主力系统使用。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -258,7 +258,7 @@ static MUI_ENTRY enUSIntroPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSLicensePageEntries[] =
+static MUI_ENTRY zhCNLicensePageEntries[] =
 {
     {
         4,
@@ -401,102 +401,88 @@ static MUI_ENTRY enUSLicensePageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSDevicePageEntries[] =
+static MUI_ENTRY zhCNDevicePageEntries[] =
 {
     {
         4,
         3,
-        " ikun OS " KERNEL_VERSION_STR " Setup ",
+        " ikun OS " KERNEL_VERSION_STR "安装",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "The list below shows the current device settings.",
+        "下面的列表展示了正确的设备设置。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         24,
         11,
-        "Computer:",
+        "计算机：",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
         TEXT_ID_STATIC
     },
     {
         24,
         12,
-        "Display:",
+        "显示：",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
         TEXT_ID_STATIC
     },
     {
         24,
         13,
-        "Keyboard:",
+        "键盘：",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
         TEXT_ID_STATIC
     },
     {
         24,
         14,
-        "Keyboard layout:",
+        "键盘布局：",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
         TEXT_ID_STATIC
     },
     {
         24,
         16,
-        "Accept:",
+        "同意:",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_RIGHT,
         TEXT_ID_STATIC
     },
     {
         25,
-        16, "Accept these device settings",
+        16, "同意这些设备设置",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         19,
-        "You can change the hardware settings by pressing the UP or DOWN keys",
+        "你可以通过 UP 键和 DOWN 键以改变设置。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         20,
-        "to select an entry. Then press the ENTER key to select alternative",
+        "按下 Enter 键以确定设置。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
-        21,
-        "settings.",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        23,
-        "When all settings are correct, select \"Accept these device settings\"",
-        TEXT_STYLE_NORMAL,
-        TEXT_ID_STATIC
-    },
-    {
-        6,
-        24,
-        "and press ENTER.",
+        22,
+        "当设置均正确时，请选择“同意这些设备设置”并按下 ENTER 键。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         0,
         0,
-        "ENTER = Continue   F3 = Quit",
+        "ENTER = 继续   F3 = 退出",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
         TEXT_ID_STATIC
     },
@@ -508,68 +494,68 @@ static MUI_ENTRY enUSDevicePageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSRepairPageEntries[] =
+static MUI_ENTRY zhCNRepairPageEntries[] =
 {
     {
         4,
         3,
-        " ikun OS " KERNEL_VERSION_STR " Setup ",
+        " ikun OS " KERNEL_VERSION_STR "安装",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "ikun OS Setup is in an early development phase. It does not yet",
+        "ikun OS 安装程序仍不完善。他还不能完全",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         9,
-        "support all the functions of a fully usable setup application.",
+        "支持完整版本安装程序的全部特性。修复功能",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         12,
-        "The repair functions are not implemented yet.",
+        "仍未被实现。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         15,
-        "\x07  Press U for Updating OS.",
+        "\x07  按下 U 键以更新 ikun OS。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         17,
-        "\x07  Press R for the Recovery Console.",
+        "\x07  按下 R 键以打开恢复控制台。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         19,
-        "\x07  Press ESC to return to the main page.",
+        "\x07  按下 ESC 以返回主页。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         21,
-        "\x07  Press ENTER to reboot your computer.",
+        "\x07  按下 ENTER 以重新启动计算机。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         0,
         0,
-        "ESC = Main page  U = Update  R = Recovery  ENTER = Reboot",
+        "ESC = 主页  U = 更新  R = 恢复  ENTER = 重新启动",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
         TEXT_ID_STATIC
     },
@@ -581,75 +567,75 @@ static MUI_ENTRY enUSRepairPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSUpgradePageEntries[] =
+static MUI_ENTRY zhCNUpgradePageEntries[] =
 {
     {
         4,
         3,
-        " ikun OS " KERNEL_VERSION_STR " Setup ",
+        " ikun OS " KERNEL_VERSION_STR "安装",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "The ikun OS Setup can upgrade one of the available ikun OS installations",
+        "ikun OS 安装程序可以更新一个在下方列出的",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         9,
-        "listed below, or, if a ikun OS installation is damaged, the Setup program",
+        "可用的 ikun OS 系统或尝试修复一个损坏的",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         10,
-        "can attempt to repair it.",
+        "ikun OS 系统。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         12,
-        "The repair functions are not all implemented yet.",
+        "修复功能仍未被完全实现。",
         TEXT_STYLE_HIGHLIGHT,
         TEXT_ID_STATIC
     },
     {
         8,
         15,
-        "\x07  Press UP or DOWN to select an OS installation.",
+        "\x07  按下 UP 键或 DOWN 键以选择系统。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         17,
-        "\x07  Press U for upgrading the selected OS installation.",
+        "\x07  按下 U 键以更新被选择的系统。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         19,
-        "\x07  Press ESC to continue with a new installation.",
+        "\x07  按下 ESC 键以继续安装全新的系统。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         21,
-        "\x07  Press F3 to quit without installing ikun OS.",
+        "\x07  按下 F3 以不安装系统并退出。",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         0,
         0,
-        "U = Upgrade   ESC = Do not upgrade   F3 = Quit",
+        "U = 更新   ESC = 放弃更新   F3 = 退出",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
         TEXT_ID_STATIC
     },
@@ -661,12 +647,12 @@ static MUI_ENTRY enUSUpgradePageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSComputerPageEntries[] =
+static MUI_ENTRY zhCNComputerPageEntries[] =
 {
     {
         4,
         3,
-        " ikun OS " KERNEL_VERSION_STR " Setup ",
+        " ikun OS " KERNEL_VERSION_STR "安装",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -720,7 +706,7 @@ static MUI_ENTRY enUSComputerPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSFlushPageEntries[] =
+static MUI_ENTRY zhCNFlushPageEntries[] =
 {
     {
         4,
@@ -765,7 +751,7 @@ static MUI_ENTRY enUSFlushPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSQuitPageEntries[] =
+static MUI_ENTRY zhCNQuitPageEntries[] =
 {
     {
         4,
@@ -817,7 +803,7 @@ static MUI_ENTRY enUSQuitPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSDisplayPageEntries[] =
+static MUI_ENTRY zhCNDisplayPageEntries[] =
 {
     {
         4,
@@ -876,7 +862,7 @@ static MUI_ENTRY enUSDisplayPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSSuccessPageEntries[] =
+static MUI_ENTRY zhCNSuccessPageEntries[] =
 {
     {
         4,
@@ -928,7 +914,7 @@ static MUI_ENTRY enUSSuccessPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSBootPageEntries[] =
+static MUI_ENTRY zhCNBootPageEntries[] =
 {
     {
         4,
@@ -981,7 +967,7 @@ static MUI_ENTRY enUSBootPageEntries[] =
 
 };
 
-static MUI_ENTRY enUSSelectPartitionEntries[] =
+static MUI_ENTRY zhCNSelectPartitionEntries[] =
 {
     {
         4,
@@ -1061,7 +1047,7 @@ static MUI_ENTRY enUSSelectPartitionEntries[] =
     }
 };
 
-static MUI_ENTRY enUSChangeSystemPartition[] =
+static MUI_ENTRY zhCNChangeSystemPartition[] =
 {
     {
         4,
@@ -1183,7 +1169,7 @@ static MUI_ENTRY enUSChangeSystemPartition[] =
     }
 };
 
-static MUI_ENTRY enUSConfirmDeleteSystemPartitionEntries[] =
+static MUI_ENTRY zhCNConfirmDeleteSystemPartitionEntries[] =
 {
     {
         4,
@@ -1291,7 +1277,7 @@ static MUI_ENTRY enUSConfirmDeleteSystemPartitionEntries[] =
     }
 };
 
-static MUI_ENTRY enUSFormatPartitionEntries[] =
+static MUI_ENTRY zhCNFormatPartitionEntries[] =
 {
     {
         4,
@@ -1329,7 +1315,7 @@ static MUI_ENTRY enUSFormatPartitionEntries[] =
     }
 };
 
-static MUI_ENTRY enUSCheckFSEntries[] =
+static MUI_ENTRY zhCNCheckFSEntries[] =
 {
     {
         4,
@@ -1360,7 +1346,7 @@ static MUI_ENTRY enUSCheckFSEntries[] =
     }
 };
 
-static MUI_ENTRY enUSInstallDirectoryEntries[] =
+static MUI_ENTRY zhCNInstallDirectoryEntries[] =
 {
     {
         4,
@@ -1419,7 +1405,7 @@ static MUI_ENTRY enUSInstallDirectoryEntries[] =
     }
 };
 
-static MUI_ENTRY enUSFileCopyEntries[] =
+static MUI_ENTRY zhCNFileCopyEntries[] =
 {
     {
         4,
@@ -1464,7 +1450,7 @@ static MUI_ENTRY enUSFileCopyEntries[] =
     }
 };
 
-static MUI_ENTRY enUSBootLoaderEntries[] =
+static MUI_ENTRY zhCNBootLoaderEntries[] =
 {
     {
         4,
@@ -1523,7 +1509,7 @@ static MUI_ENTRY enUSBootLoaderEntries[] =
     }
 };
 
-static MUI_ENTRY enUSBootLoaderInstallPageEntries[] =
+static MUI_ENTRY zhCNBootLoaderInstallPageEntries[] =
 {
     {
         4,
@@ -1547,7 +1533,7 @@ static MUI_ENTRY enUSBootLoaderInstallPageEntries[] =
     }
 };
 
-static MUI_ENTRY enUSKeyboardSettingsEntries[] =
+static MUI_ENTRY zhCNKeyboardSettingsEntries[] =
 {
     {
         4,
@@ -1606,7 +1592,7 @@ static MUI_ENTRY enUSKeyboardSettingsEntries[] =
     }
 };
 
-static MUI_ENTRY enUSLayoutSettingsEntries[] =
+static MUI_ENTRY zhCNLayoutSettingsEntries[] =
 {
     {
         4,
@@ -1666,7 +1652,7 @@ static MUI_ENTRY enUSLayoutSettingsEntries[] =
 
 };
 
-static MUI_ENTRY enUSPrepareCopyEntries[] =
+static MUI_ENTRY zhCNPrepareCopyEntries[] =
 {
     {
         4,
@@ -1698,7 +1684,7 @@ static MUI_ENTRY enUSPrepareCopyEntries[] =
 
 };
 
-static MUI_ENTRY enUSSelectFSEntries[] =
+static MUI_ENTRY zhCNSelectFSEntries[] =
 {
     {
         4,
@@ -1746,7 +1732,7 @@ static MUI_ENTRY enUSSelectFSEntries[] =
     }
 };
 
-static MUI_ENTRY enUSDeletePartitionEntries[] =
+static MUI_ENTRY zhCNDeletePartitionEntries[] =
 {
     {
         4,
@@ -1798,7 +1784,7 @@ static MUI_ENTRY enUSDeletePartitionEntries[] =
     }
 };
 
-static MUI_ENTRY enUSRegistryEntries[] =
+static MUI_ENTRY zhCNRegistryEntries[] =
 {
     {
         4,
@@ -1830,7 +1816,7 @@ static MUI_ENTRY enUSRegistryEntries[] =
 
 };
 
-MUI_ERROR enUSErrorEntries[] =
+MUI_ERROR zhCNErrorEntries[] =
 {
     {
         // NOT_AN_ERROR
@@ -2089,123 +2075,123 @@ MUI_ERROR enUSErrorEntries[] =
     }
 };
 
-MUI_PAGE enUSPages[] =
+MUI_PAGE zhCNPages[] =
 {
     {
         SETUP_INIT_PAGE,
-        enUSSetupInitPageEntries
+        zhCNSetupInitPageEntries
     },
     {
         LANGUAGE_PAGE,
-        enUSLanguagePageEntries
+        zhCNLanguagePageEntries
     },
     {
         WELCOME_PAGE,
-        enUSWelcomePageEntries
+        zhCNWelcomePageEntries
     },
     {
         INSTALL_INTRO_PAGE,
-        enUSIntroPageEntries
+        zhCNIntroPageEntries
     },
     {
         LICENSE_PAGE,
-        enUSLicensePageEntries
+        zhCNLicensePageEntries
     },
     {
         DEVICE_SETTINGS_PAGE,
-        enUSDevicePageEntries
+        zhCNDevicePageEntries
     },
     {
         REPAIR_INTRO_PAGE,
-        enUSRepairPageEntries
+        zhCNRepairPageEntries
     },
     {
         UPGRADE_REPAIR_PAGE,
-        enUSUpgradePageEntries
+        zhCNUpgradePageEntries
     },
     {
         COMPUTER_SETTINGS_PAGE,
-        enUSComputerPageEntries
+        zhCNComputerPageEntries
     },
     {
         DISPLAY_SETTINGS_PAGE,
-        enUSDisplayPageEntries
+        zhCNDisplayPageEntries
     },
     {
         FLUSH_PAGE,
-        enUSFlushPageEntries
+        zhCNFlushPageEntries
     },
     {
         SELECT_PARTITION_PAGE,
-        enUSSelectPartitionEntries
+        zhCNSelectPartitionEntries
     },
     {
         CHANGE_SYSTEM_PARTITION,
-        enUSChangeSystemPartition
+        zhCNChangeSystemPartition
     },
     {
         CONFIRM_DELETE_SYSTEM_PARTITION_PAGE,
-        enUSConfirmDeleteSystemPartitionEntries
+        zhCNConfirmDeleteSystemPartitionEntries
     },
     {
         SELECT_FILE_SYSTEM_PAGE,
-        enUSSelectFSEntries
+        zhCNSelectFSEntries
     },
     {
         FORMAT_PARTITION_PAGE,
-        enUSFormatPartitionEntries
+        zhCNFormatPartitionEntries
     },
     {
         CHECK_FILE_SYSTEM_PAGE,
-        enUSCheckFSEntries
+        zhCNCheckFSEntries
     },
     {
         DELETE_PARTITION_PAGE,
-        enUSDeletePartitionEntries
+        zhCNDeletePartitionEntries
     },
     {
         INSTALL_DIRECTORY_PAGE,
-        enUSInstallDirectoryEntries
+        zhCNInstallDirectoryEntries
     },
     {
         PREPARE_COPY_PAGE,
-        enUSPrepareCopyEntries
+        zhCNPrepareCopyEntries
     },
     {
         FILE_COPY_PAGE,
-        enUSFileCopyEntries
+        zhCNFileCopyEntries
     },
     {
         KEYBOARD_SETTINGS_PAGE,
-        enUSKeyboardSettingsEntries
+        zhCNKeyboardSettingsEntries
     },
     {
         BOOT_LOADER_PAGE,
-        enUSBootLoaderEntries
+        zhCNBootLoaderEntries
     },
     {
         LAYOUT_SETTINGS_PAGE,
-        enUSLayoutSettingsEntries
+        zhCNLayoutSettingsEntries
     },
     {
         QUIT_PAGE,
-        enUSQuitPageEntries
+        zhCNQuitPageEntries
     },
     {
         SUCCESS_PAGE,
-        enUSSuccessPageEntries
+        zhCNSuccessPageEntries
     },
     {
         BOOT_LOADER_INSTALLATION_PAGE,
-        enUSBootLoaderInstallPageEntries
+        zhCNBootLoaderInstallPageEntries
     },
     {
         BOOT_LOADER_FLOPPY_PAGE,
-        enUSBootPageEntries
+        zhCNBootPageEntries
     },
     {
         REGISTRY_PAGE,
-        enUSRegistryEntries
+        zhCNRegistryEntries
     },
     {
         -1,
@@ -2213,7 +2199,7 @@ MUI_PAGE enUSPages[] =
     }
 };
 
-MUI_STRING enUSStrings[] =
+MUI_STRING zhCNStrings[] =
 {
     {STRING_PLEASEWAIT,
      "   Please wait..."},
