@@ -19,3 +19,5 @@ build
 *.filters
 *.user
 *.log
+/kunapp/jilegeji/dist
+/kunapp/jilegeji/node_modules
