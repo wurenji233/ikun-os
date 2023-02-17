@@ -1,0 +1,4 @@
+catch-kun是Gamemaker8.0游戏，需要编译；
+jilegeji是Node.js应用，需要编译；
+big-kun和eat-kun是HTML应用，可以直接运行；
+ikun-box使用Python编写，打包为exe文件，可以直接运行。
